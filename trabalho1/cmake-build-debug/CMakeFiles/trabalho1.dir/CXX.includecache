@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/winderson/Universidade/programacao-avancada/trabalho1/main.cpp
+iostream
+-
+string
+-
+model/veiculo.h
+/home/winderson/Universidade/programacao-avancada/trabalho1/model/veiculo.h
+model/carro.h
+/home/winderson/Universidade/programacao-avancada/trabalho1/model/carro.h
+model/caminhao.h
+/home/winderson/Universidade/programacao-avancada/trabalho1/model/caminhao.h
+
+/home/winderson/Universidade/programacao-avancada/trabalho1/model/caminhao.h
+iostream
+-
+string
+-
+veiculo.h
+/home/winderson/Universidade/programacao-avancada/trabalho1/model/veiculo.h
+
+/home/winderson/Universidade/programacao-avancada/trabalho1/model/carro.h
+iostream
+-
+string
+-
+veiculo.h
+/home/winderson/Universidade/programacao-avancada/trabalho1/model/veiculo.h
+
+/home/winderson/Universidade/programacao-avancada/trabalho1/model/veiculo.h
+iostream
+-
+string
+-
+
