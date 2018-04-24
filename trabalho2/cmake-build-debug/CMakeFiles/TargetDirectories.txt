@@ -1,0 +1,3 @@
+/home/winderson/Universidade/programacao-avancada/trabalho2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/winderson/Universidade/programacao-avancada/trabalho2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/winderson/Universidade/programacao-avancada/trabalho2/cmake-build-debug/CMakeFiles/trabalho2.dir
