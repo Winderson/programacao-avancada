@@ -15,7 +15,7 @@ class Carro : public Veiculo{
 
 public:
     //Construtores
-    Carro(): Veiculo("", 0.0, 0.0, 0.0),_modelo(""),_cor(""){};
+    Carro(): Veiculo(),_modelo(""),_cor(""){};
     Carro(std::string modelo, std::string cor, std::string placa, double peso, double velocidadeMaxima,
           double preco): Veiculo(placa, peso, velocidadeMaxima, preco),_modelo(modelo),
                                  _cor(cor){};

@@ -12,25 +12,27 @@ class Pilha {
 public:
     // Construtores
     Pilha():_tamanho(100){
-        this->pilha = (string*) malloc(100*sizeof(string));
+        this->_pilha = (std::string*) malloc(100*sizeof(std::string));
+        this->_tamanho = 0;
     };
 
     Pilha(int tamanho): _tamanho(tamanho){
-        this->pilha = (string*) malloc(tamanho*sizeof(string));
+        this->_pilha = (std::string*) malloc(tamanho*sizeof(std::string));
     };
 
-    Pilha operator empilha(std::string item){
-
-    };
-
-    Pilha operator desempilha();
-    int tamanho(){return this->tamanho();};
+    // Métodos
+    void empilha(std::string item);
+    std::string desempilha();
+    int tamanho(){return this->_tamanho;};
     void imprime();
+
+    void operator +=(std::string item){this->empilha(item);};
+    std::string operator --(){return this->desempilha();};
 
 private:
     // Variaveis
     int _tamanho;
-    std::string *pilha;
+    std::string *_pilha;
 };
 
 

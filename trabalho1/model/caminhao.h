@@ -17,7 +17,7 @@ class Caminhao : public Veiculo {
 
 public:
     // Construtores
-    Caminhao(): Veiculo("", 0.0, 0.0, 0.0),_capacidade(0.0),
+    Caminhao(): Veiculo(),_capacidade(0.0),
                _comprimento(0.0),
                _alturaMaxima(0.0){};
 
