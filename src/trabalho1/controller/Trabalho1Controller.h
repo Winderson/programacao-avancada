@@ -2,17 +2,17 @@
 // Created by winderson on 25/04/18.
 //
 
-#ifndef TRABALHO1_CONTROL_H
-#define TRABALHO1_CONTROL_H
+#ifndef TRABALHO1CONTROLLER_H
+#define TRABALHO1CONTROLLER_H
 
-#include "../view/Trabalho1Interface.h"
+#include "../view/Trabalho1Interface.cpp"
 
-class Trabalho1Control {
+class Trabalho1Controller {
 
 public:
 
     void executa();
-    void trataOpcao();
+    void trataOpcao(int &opcao);
     void executaTesteVeiculos();
     void executaTesteCaminhonete();
 
@@ -23,4 +23,4 @@ private :
 };
 
 
-#endif //TRABALHO1_CONTROL_H
+#endif //TRABALHO1CONTROLLER_H

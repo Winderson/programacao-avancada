@@ -1,12 +1,10 @@
 #include <iostream>
 #include <string>
-#include "./control/Trabalho1Control.cpp"
+#include "./controller/Trabalho1Controller.cpp"
 
 
 int main() {
-
-    Trabalho1Control trabalho1Control;
-    trabalho1Control.executaTesteVeiculos();
-
+    Trabalho1Controller trabalho1Controller;
+    trabalho1Controller.executa();
     return 0;
 }

@@ -8,6 +8,9 @@
 
 class Trabalho2Controller {
 
+public:
+  void execute();
+
 };
 
 

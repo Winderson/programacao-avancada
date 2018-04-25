@@ -36,14 +36,13 @@ public:
     // Métodos
     void imprime(){
         cout << "Capacidade: " << this->_capacidade << " toneladas" << endl;
-        cout << "Comprimento: " << this->_comprimento << "metros" << endl;
+        cout << "Comprimento: " << this->_comprimento << " metros" << endl;
         cout << "Altura máxima: " << this->_alturaMaxima << "metros" << endl;
         cout << "Placa: " << this->getPlaca() << endl;
         cout << "Peso: " << this->getPeso() << " kg"<< endl;
         cout << "Velocidade máxima: " << this->getVelocidadeMaxima() << " km/h" << endl;
         cout << "Preco: R$ " << this->getPreco() << ",00" << endl;
     };
-
 
 private:
     // Variáveis
