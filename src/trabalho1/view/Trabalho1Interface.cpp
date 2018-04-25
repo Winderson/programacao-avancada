@@ -3,7 +3,12 @@
 //
 #include <iostream>
 #include "Trabalho1Interface.h"
+#include "../model/Veiculo.h"
+#include "../model/Carro.h"
+#include "../model/Caminhao.h"
+#include "../model/Caminhonete.h"
 #include <string>
+using namespace std;
 
 //void Trabalho1Interface::exibeMenu() {
 //    cout << "Trabalho 1 - Heranca" << endl;
@@ -24,9 +29,28 @@ void Trabalho1Interface::exibeMenu() {
 }
 
 
-void Trabalho1Interface::exibeTesteVeiculos(Veiculo **veiculos) {
-    cout << "Criação de dois veículos" << endl;
+void Trabalho1Interface::exibeVeiculo(Veiculo &veiculo){
+    cout << "Veiculo: "<< endl;
+    veiculo.imprime();
+    cout << endl;
+}
 
+void Trabalho1Interface::exibeCarro(Carro &carro){
+    cout << "Carro: "<< endl;
+    carro.imprime();
+    cout << endl;
+}
+
+void Trabalho1Interface::exibeCaminhao(Caminhao &caminhao){
+    cout << "Caminhao: "<< endl;
+    caminhao.imprime();
+    cout << endl;
+}
+
+void Trabalho1Interface::exibeCaminhonete(Caminhonete &caminhonete){
+    cout << "Caminhonete: "<< endl;
+    caminhonete.imprime();
+    cout << endl;
 }
 
 void Trabalho1Interface::exibeErroOpcaoInvalida() {
@@ -37,5 +61,6 @@ int Trabalho1Interface::leOpcao() {
     cout << "Opcao: ";
     int opcao = 0;
     cin >> opcao;
+    cout << endl;
     return opcao;
 }

@@ -5,9 +5,15 @@
 #ifndef TRABALHO2_TRABALHO2CONTROLLER_H
 #define TRABALHO2_TRABALHO2CONTROLLER_H
 
+#include "../view/Trabalho2Interface.h"
 
 class Trabalho2Controller {
 
+public:
+  void execute();
+
+private:
+    Trabalho2Interface _view;
 };
 
 
