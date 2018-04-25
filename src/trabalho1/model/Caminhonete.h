@@ -8,7 +8,7 @@
 
 class Caminhonete : public Caminhao, public Carro{
 public:
-    Caminhonete(): Caminhao(""),
+    Caminhonete();
 
 
 private:

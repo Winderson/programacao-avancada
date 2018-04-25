@@ -9,7 +9,7 @@
 // Includes
 #include <iostream>
 #include <string>
-#include "veiculo.h"
+#include "Veiculo.h"
 
 
 // Classe
@@ -41,7 +41,7 @@ public:
         cout << "Placa: " << this->getPlaca() << endl;
         cout << "Peso: " << this->getPeso() << " kg"<< endl;
         cout << "Velocidade máxima: " << this->getVelocidadeMaxima() << " km/h" << endl;
-        cout << "Preco: R$ " << this->getPreco() << endl;
+        cout << "Preco: R$ " << this->getPreco() << ",00" << endl;
     };
 
 
