@@ -123,6 +123,33 @@ trabalho3/fast:
 	$(MAKE) -f CMakeFiles/trabalho3.dir/build.make CMakeFiles/trabalho3.dir/build
 .PHONY : trabalho3/fast
 
+controller/Trabalho3Controller.o: controller/Trabalho3Controller.cpp.o
+
+.PHONY : controller/Trabalho3Controller.o
+
+# target to build an object file
+controller/Trabalho3Controller.cpp.o:
+	$(MAKE) -f CMakeFiles/trabalho3.dir/build.make CMakeFiles/trabalho3.dir/controller/Trabalho3Controller.cpp.o
+.PHONY : controller/Trabalho3Controller.cpp.o
+
+controller/Trabalho3Controller.i: controller/Trabalho3Controller.cpp.i
+
+.PHONY : controller/Trabalho3Controller.i
+
+# target to preprocess a source file
+controller/Trabalho3Controller.cpp.i:
+	$(MAKE) -f CMakeFiles/trabalho3.dir/build.make CMakeFiles/trabalho3.dir/controller/Trabalho3Controller.cpp.i
+.PHONY : controller/Trabalho3Controller.cpp.i
+
+controller/Trabalho3Controller.s: controller/Trabalho3Controller.cpp.s
+
+.PHONY : controller/Trabalho3Controller.s
+
+# target to generate assembly for a file
+controller/Trabalho3Controller.cpp.s:
+	$(MAKE) -f CMakeFiles/trabalho3.dir/build.make CMakeFiles/trabalho3.dir/controller/Trabalho3Controller.cpp.s
+.PHONY : controller/Trabalho3Controller.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +177,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/trabalho3.dir/build.make CMakeFiles/trabalho3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+model/Pilha.o: model/Pilha.cpp.o
+
+.PHONY : model/Pilha.o
+
+# target to build an object file
+model/Pilha.cpp.o:
+	$(MAKE) -f CMakeFiles/trabalho3.dir/build.make CMakeFiles/trabalho3.dir/model/Pilha.cpp.o
+.PHONY : model/Pilha.cpp.o
+
+model/Pilha.i: model/Pilha.cpp.i
+
+.PHONY : model/Pilha.i
+
+# target to preprocess a source file
+model/Pilha.cpp.i:
+	$(MAKE) -f CMakeFiles/trabalho3.dir/build.make CMakeFiles/trabalho3.dir/model/Pilha.cpp.i
+.PHONY : model/Pilha.cpp.i
+
+model/Pilha.s: model/Pilha.cpp.s
+
+.PHONY : model/Pilha.s
+
+# target to generate assembly for a file
+model/Pilha.cpp.s:
+	$(MAKE) -f CMakeFiles/trabalho3.dir/build.make CMakeFiles/trabalho3.dir/model/Pilha.cpp.s
+.PHONY : model/Pilha.cpp.s
+
+view/Trabalho3View.o: view/Trabalho3View.cpp.o
+
+.PHONY : view/Trabalho3View.o
+
+# target to build an object file
+view/Trabalho3View.cpp.o:
+	$(MAKE) -f CMakeFiles/trabalho3.dir/build.make CMakeFiles/trabalho3.dir/view/Trabalho3View.cpp.o
+.PHONY : view/Trabalho3View.cpp.o
+
+view/Trabalho3View.i: view/Trabalho3View.cpp.i
+
+.PHONY : view/Trabalho3View.i
+
+# target to preprocess a source file
+view/Trabalho3View.cpp.i:
+	$(MAKE) -f CMakeFiles/trabalho3.dir/build.make CMakeFiles/trabalho3.dir/view/Trabalho3View.cpp.i
+.PHONY : view/Trabalho3View.cpp.i
+
+view/Trabalho3View.s: view/Trabalho3View.cpp.s
+
+.PHONY : view/Trabalho3View.s
+
+# target to generate assembly for a file
+view/Trabalho3View.cpp.s:
+	$(MAKE) -f CMakeFiles/trabalho3.dir/build.make CMakeFiles/trabalho3.dir/view/Trabalho3View.cpp.s
+.PHONY : view/Trabalho3View.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... trabalho3"
+	@echo "... controller/Trabalho3Controller.o"
+	@echo "... controller/Trabalho3Controller.i"
+	@echo "... controller/Trabalho3Controller.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... model/Pilha.o"
+	@echo "... model/Pilha.i"
+	@echo "... model/Pilha.s"
+	@echo "... view/Trabalho3View.o"
+	@echo "... view/Trabalho3View.i"
+	@echo "... view/Trabalho3View.s"
 .PHONY : help
 
 

@@ -2,16 +2,17 @@
 // Created by winderson on 25/04/18.
 //
 
-#ifndef TRABALHO2_TRABALHO2INTERFACE_H
-#define TRABALHO2_TRABALHO2INTERFACE_H
-#include "../view/Trabalho2Interface.h"
+#ifndef TRABALHO2_INTERFACE_H
+#define TRABALHO2_INTERFACE_H
+#include "../model/ContaPoupanca.h"
 #include "../model/ContaCorrente.h"
 
 class Trabalho2Interface {
 public:
-  void exibeExtratoContaCorrente(ContaCorrente &contaCorrente);
-
+    Trabalho2Interface() {};
+    void exibeExtratoContaCorrente(ContaCorrente &contaCorrente);
+    void exibeExtratoContaPoupanca(ContaPoupanca &contaPoupanca);
 };
 
 
-#endif //TRABALHO2_TRABALHO2INTERFACE_H
+#endif //TRABALHO2_INTERFACE_H

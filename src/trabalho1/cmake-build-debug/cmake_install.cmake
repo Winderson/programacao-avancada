@@ -1,4 +1,4 @@
-# Install script for directory: /projetos/programacao-avancada/src/trabalho1
+# Install script for directory: /home/winderson/Universidade/programacao-avancada/src/trabalho1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/projetos/programacao-avancada/src/trabalho1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

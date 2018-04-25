@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/winderson/Universidade/programacao-avancada/src/trabalho3/controller/Trabalho3Controller.cpp" "/home/winderson/Universidade/programacao-avancada/src/trabalho3/cmake-build-debug/CMakeFiles/trabalho3.dir/controller/Trabalho3Controller.cpp.o"
   "/home/winderson/Universidade/programacao-avancada/src/trabalho3/main.cpp" "/home/winderson/Universidade/programacao-avancada/src/trabalho3/cmake-build-debug/CMakeFiles/trabalho3.dir/main.cpp.o"
+  "/home/winderson/Universidade/programacao-avancada/src/trabalho3/model/Pilha.cpp" "/home/winderson/Universidade/programacao-avancada/src/trabalho3/cmake-build-debug/CMakeFiles/trabalho3.dir/model/Pilha.cpp.o"
+  "/home/winderson/Universidade/programacao-avancada/src/trabalho3/view/Trabalho3View.cpp" "/home/winderson/Universidade/programacao-avancada/src/trabalho3/cmake-build-debug/CMakeFiles/trabalho3.dir/view/Trabalho3View.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

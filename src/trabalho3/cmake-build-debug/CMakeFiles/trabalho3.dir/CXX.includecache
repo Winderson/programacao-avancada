@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/controller/Trabalho3Controller.cpp
+Trabalho3Controller.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/controller/Trabalho3Controller.h
+
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/controller/Trabalho3Controller.h
+../view/Trabalho3View.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/view/Trabalho3View.h
+
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/main.cpp
+iostream
+-
+string
+-
+controller/Trabalho3Controller.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/controller/Trabalho3Controller.h
+
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/model/Pilha.cpp
+Pilha.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/model/Pilha.h
+string
+-
+
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/model/Pilha.h
+iostream
+-
+string
+-
+
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/view/Trabalho3View.cpp
+Trabalho3View.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/view/Trabalho3View.h
+../model/Pilha.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/model/Pilha.h
+
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/view/Trabalho3View.h
+../model/Pilha.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/model/Pilha.h
+

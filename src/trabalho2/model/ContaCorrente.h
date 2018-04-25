@@ -4,9 +4,9 @@
 
 #ifndef CONTACORRENTE_H
 #define CONTACORRENTE_H
+#include "Conta.h"
 
-
-class ContaCorrente : public Conta{
+class ContaCorrente : public Conta {
 public:
 
     // Construtores
@@ -16,14 +16,14 @@ public:
     // Métodos
     void extrato(){
       cout << "##### Conta Corrente #####" << endl;
-      cout << "## Número ....... " << this->getNumero() << "##" << endl;
-      cout << "## Nome ......... " << this->getCliente().getNome() << "##" << endl;
-      cout << "## Saldo ........ " << this->getSaldo() << "##" << endl;
+      cout << "## Número ....... " << this->getNumero() << " ##" << endl;
+      cout << "## Nome ......... " << this->getCliente().getNome() << " ##" << endl;
+      cout << "## Saldo ........ " << this->getSaldo() << " ##" << endl;
       cout << "##########################" << endl;
     };
     void aplicaJurosDiarios(int dias){
-        double juros = 0.1/100;
-        cout << "Total: " << juros * dias << endl;
+        double juros = 0.8 / 100;
+        this->setSaldo(getSaldo() * pow((1 + juros), dias));
     }
 
 };

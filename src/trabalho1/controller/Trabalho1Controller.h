@@ -5,7 +5,7 @@
 #ifndef TRABALHO1CONTROLLER_H
 #define TRABALHO1CONTROLLER_H
 
-#include "../view/Trabalho1Interface.cpp"
+#include "../view/Trabalho1Interface.h"
 
 class Trabalho1Controller {
 

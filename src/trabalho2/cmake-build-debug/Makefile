@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/projeto/Downloads/CLion-2018.1.2/clion-2018.1.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /snap/clion/17/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/projeto/Downloads/CLion-2018.1.2/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
+RM = /snap/clion/17/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /projetos/programacao-avancada/src/trabalho2
+CMAKE_SOURCE_DIR = /home/winderson/Universidade/programacao-avancada/src/trabalho2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /projetos/programacao-avancada/src/trabalho2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/winderson/Universidade/programacao-avancada/src/trabalho2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /projetos/programacao-avancada/src/trabalho2/cmake-build-debu
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/projeto/Downloads/CLion-2018.1.2/clion-2018.1.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/17/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/projeto/Downloads/CLion-2018.1.2/clion-2018.1.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/17/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /projetos/programacao-avancada/src/trabalho2/cmake-build-debug/CMakeFiles /projetos/programacao-avancada/src/trabalho2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/winderson/Universidade/programacao-avancada/src/trabalho2/cmake-build-debug/CMakeFiles /home/winderson/Universidade/programacao-avancada/src/trabalho2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /projetos/programacao-avancada/src/trabalho2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/winderson/Universidade/programacao-avancada/src/trabalho2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/trabalho2.dir/build.make CMakeFiles/trabalho2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+view/Trabalho2Interface.o: view/Trabalho2Interface.cpp.o
+
+.PHONY : view/Trabalho2Interface.o
+
+# target to build an object file
+view/Trabalho2Interface.cpp.o:
+	$(MAKE) -f CMakeFiles/trabalho2.dir/build.make CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o
+.PHONY : view/Trabalho2Interface.cpp.o
+
+view/Trabalho2Interface.i: view/Trabalho2Interface.cpp.i
+
+.PHONY : view/Trabalho2Interface.i
+
+# target to preprocess a source file
+view/Trabalho2Interface.cpp.i:
+	$(MAKE) -f CMakeFiles/trabalho2.dir/build.make CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.i
+.PHONY : view/Trabalho2Interface.cpp.i
+
+view/Trabalho2Interface.s: view/Trabalho2Interface.cpp.s
+
+.PHONY : view/Trabalho2Interface.s
+
+# target to generate assembly for a file
+view/Trabalho2Interface.cpp.s:
+	$(MAKE) -f CMakeFiles/trabalho2.dir/build.make CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.s
+.PHONY : view/Trabalho2Interface.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... view/Trabalho2Interface.o"
+	@echo "... view/Trabalho2Interface.i"
+	@echo "... view/Trabalho2Interface.s"
 .PHONY : help
 
 

@@ -10,6 +10,7 @@
 class Trabalho2Controller {
 
 public:
+    Trabalho2Controller():_view(Trabalho2Interface()){};
   void execute();
 
 private:

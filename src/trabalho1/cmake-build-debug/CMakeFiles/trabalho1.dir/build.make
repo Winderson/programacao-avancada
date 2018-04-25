@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/projeto/Downloads/CLion-2018.1.2/clion-2018.1.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /snap/clion/17/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/projeto/Downloads/CLion-2018.1.2/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
+RM = /snap/clion/17/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /projetos/programacao-avancada/src/trabalho1
+CMAKE_SOURCE_DIR = /home/winderson/Universidade/programacao-avancada/src/trabalho1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /projetos/programacao-avancada/src/trabalho1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/trabalho1.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/trabalho1.dir/flags.make
 
 CMakeFiles/trabalho1.dir/main.cpp.o: CMakeFiles/trabalho1.dir/flags.make
 CMakeFiles/trabalho1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/projetos/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/trabalho1.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trabalho1.dir/main.cpp.o -c /projetos/programacao-avancada/src/trabalho1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/trabalho1.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trabalho1.dir/main.cpp.o -c /home/winderson/Universidade/programacao-avancada/src/trabalho1/main.cpp
 
 CMakeFiles/trabalho1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /projetos/programacao-avancada/src/trabalho1/main.cpp > CMakeFiles/trabalho1.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/winderson/Universidade/programacao-avancada/src/trabalho1/main.cpp > CMakeFiles/trabalho1.dir/main.cpp.i
 
 CMakeFiles/trabalho1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /projetos/programacao-avancada/src/trabalho1/main.cpp -o CMakeFiles/trabalho1.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/winderson/Universidade/programacao-avancada/src/trabalho1/main.cpp -o CMakeFiles/trabalho1.dir/main.cpp.s
 
 CMakeFiles/trabalho1.dir/main.cpp.o.requires:
 
@@ -81,17 +81,69 @@ CMakeFiles/trabalho1.dir/main.cpp.o.provides: CMakeFiles/trabalho1.dir/main.cpp.
 CMakeFiles/trabalho1.dir/main.cpp.o.provides.build: CMakeFiles/trabalho1.dir/main.cpp.o
 
 
+CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o: CMakeFiles/trabalho1.dir/flags.make
+CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o: ../controller/Trabalho1Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o -c /home/winderson/Universidade/programacao-avancada/src/trabalho1/controller/Trabalho1Controller.cpp
+
+CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/winderson/Universidade/programacao-avancada/src/trabalho1/controller/Trabalho1Controller.cpp > CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.i
+
+CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/winderson/Universidade/programacao-avancada/src/trabalho1/controller/Trabalho1Controller.cpp -o CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.s
+
+CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o.requires:
+
+.PHONY : CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o.requires
+
+CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o.provides: CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o.requires
+	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o.provides.build
+.PHONY : CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o.provides
+
+CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o.provides.build: CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o
+
+
+CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o: CMakeFiles/trabalho1.dir/flags.make
+CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o: ../view/Trabalho1Interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o -c /home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1Interface.cpp
+
+CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1Interface.cpp > CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.i
+
+CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1Interface.cpp -o CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.s
+
+CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o.requires:
+
+.PHONY : CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o.requires
+
+CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o.provides: CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o.requires
+	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o.provides.build
+.PHONY : CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o.provides
+
+CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o.provides.build: CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o
+
+
 # Object files for target trabalho1
 trabalho1_OBJECTS = \
-"CMakeFiles/trabalho1.dir/main.cpp.o"
+"CMakeFiles/trabalho1.dir/main.cpp.o" \
+"CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o" \
+"CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o"
 
 # External object files for target trabalho1
 trabalho1_EXTERNAL_OBJECTS =
 
 trabalho1: CMakeFiles/trabalho1.dir/main.cpp.o
+trabalho1: CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o
+trabalho1: CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o
 trabalho1: CMakeFiles/trabalho1.dir/build.make
 trabalho1: CMakeFiles/trabalho1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/projetos/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable trabalho1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable trabalho1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/trabalho1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +152,8 @@ CMakeFiles/trabalho1.dir/build: trabalho1
 .PHONY : CMakeFiles/trabalho1.dir/build
 
 CMakeFiles/trabalho1.dir/requires: CMakeFiles/trabalho1.dir/main.cpp.o.requires
+CMakeFiles/trabalho1.dir/requires: CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o.requires
+CMakeFiles/trabalho1.dir/requires: CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o.requires
 
 .PHONY : CMakeFiles/trabalho1.dir/requires
 
@@ -108,6 +162,6 @@ CMakeFiles/trabalho1.dir/clean:
 .PHONY : CMakeFiles/trabalho1.dir/clean
 
 CMakeFiles/trabalho1.dir/depend:
-	cd /projetos/programacao-avancada/src/trabalho1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /projetos/programacao-avancada/src/trabalho1 /projetos/programacao-avancada/src/trabalho1 /projetos/programacao-avancada/src/trabalho1/cmake-build-debug /projetos/programacao-avancada/src/trabalho1/cmake-build-debug /projetos/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles/trabalho1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/winderson/Universidade/programacao-avancada/src/trabalho1 /home/winderson/Universidade/programacao-avancada/src/trabalho1 /home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug /home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug /home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles/trabalho1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trabalho1.dir/depend
 

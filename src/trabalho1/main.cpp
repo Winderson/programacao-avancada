@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "./controller/Trabalho1Controller.cpp"
+#include "./controller/Trabalho1Controller.h"
 
 
 int main() {

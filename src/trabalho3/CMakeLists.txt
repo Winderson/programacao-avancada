@@ -3,4 +3,4 @@ project(trabalho3)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(trabalho3 main.cpp)
+add_executable(trabalho3 main.cpp  view/Trabalho3View.cpp  controller/Trabalho3Controller.cpp model/Pilha.cpp)

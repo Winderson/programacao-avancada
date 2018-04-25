@@ -5,13 +5,14 @@
 #ifndef PONTO_H
 #define PONTO_H
 #include <iostream>
+using namespace std;
 
 class Ponto {
 public:
     // Construtores
     Ponto():_x(0.0),_y(0.0){};
     Ponto(double x, double y):_x(x),_y(y){};
-    imprime(){cout << "(" <<_x << "," << _y <<")" << endl;}
+    void imprime(){cout << "(" <<_x << "," << _y <<")" << endl;}
 
     // Métodos
 

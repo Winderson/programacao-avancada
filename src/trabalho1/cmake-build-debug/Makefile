@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/projeto/Downloads/CLion-2018.1.2/clion-2018.1.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /snap/clion/17/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/projeto/Downloads/CLion-2018.1.2/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
+RM = /snap/clion/17/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /projetos/programacao-avancada/src/trabalho1
+CMAKE_SOURCE_DIR = /home/winderson/Universidade/programacao-avancada/src/trabalho1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /projetos/programacao-avancada/src/trabalho1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /projetos/programacao-avancada/src/trabalho1/cmake-build-debu
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/projeto/Downloads/CLion-2018.1.2/clion-2018.1.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/17/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/projeto/Downloads/CLion-2018.1.2/clion-2018.1.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/17/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /projetos/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles /projetos/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles /home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /projetos/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/winderson/Universidade/programacao-avancada/src/trabalho1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ trabalho1/fast:
 	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/build
 .PHONY : trabalho1/fast
 
+controller/Trabalho1Controller.o: controller/Trabalho1Controller.cpp.o
+
+.PHONY : controller/Trabalho1Controller.o
+
+# target to build an object file
+controller/Trabalho1Controller.cpp.o:
+	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o
+.PHONY : controller/Trabalho1Controller.cpp.o
+
+controller/Trabalho1Controller.i: controller/Trabalho1Controller.cpp.i
+
+.PHONY : controller/Trabalho1Controller.i
+
+# target to preprocess a source file
+controller/Trabalho1Controller.cpp.i:
+	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.i
+.PHONY : controller/Trabalho1Controller.cpp.i
+
+controller/Trabalho1Controller.s: controller/Trabalho1Controller.cpp.s
+
+.PHONY : controller/Trabalho1Controller.s
+
+# target to generate assembly for a file
+controller/Trabalho1Controller.cpp.s:
+	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.s
+.PHONY : controller/Trabalho1Controller.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+view/Trabalho1Interface.o: view/Trabalho1Interface.cpp.o
+
+.PHONY : view/Trabalho1Interface.o
+
+# target to build an object file
+view/Trabalho1Interface.cpp.o:
+	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o
+.PHONY : view/Trabalho1Interface.cpp.o
+
+view/Trabalho1Interface.i: view/Trabalho1Interface.cpp.i
+
+.PHONY : view/Trabalho1Interface.i
+
+# target to preprocess a source file
+view/Trabalho1Interface.cpp.i:
+	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.i
+.PHONY : view/Trabalho1Interface.cpp.i
+
+view/Trabalho1Interface.s: view/Trabalho1Interface.cpp.s
+
+.PHONY : view/Trabalho1Interface.s
+
+# target to generate assembly for a file
+view/Trabalho1Interface.cpp.s:
+	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.s
+.PHONY : view/Trabalho1Interface.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... trabalho1"
+	@echo "... controller/Trabalho1Controller.o"
+	@echo "... controller/Trabalho1Controller.i"
+	@echo "... controller/Trabalho1Controller.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... view/Trabalho1Interface.o"
+	@echo "... view/Trabalho1Interface.i"
+	@echo "... view/Trabalho1Interface.s"
 .PHONY : help
 
 

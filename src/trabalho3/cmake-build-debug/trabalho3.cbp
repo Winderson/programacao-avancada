@@ -84,7 +84,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho3/controller/Trabalho3Controller.cpp">
+			<Option target="trabalho3"/>
+		</Unit>
+		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho3/controller/Trabalho3Controller.h">
+			<Option target="trabalho3"/>
+		</Unit>
 		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho3/main.cpp">
+			<Option target="trabalho3"/>
+		</Unit>
+		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho3/model/Pilha.cpp">
+			<Option target="trabalho3"/>
+		</Unit>
+		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho3/model/Pilha.h">
+			<Option target="trabalho3"/>
+		</Unit>
+		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho3/view/Trabalho3View.cpp">
+			<Option target="trabalho3"/>
+		</Unit>
+		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho3/view/Trabalho3View.h">
 			<Option target="trabalho3"/>
 		</Unit>
 		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho3/CMakeLists.txt">
