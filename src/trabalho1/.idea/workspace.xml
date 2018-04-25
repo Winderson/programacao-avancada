@@ -59,6 +59,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Carro.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/Carro.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="26" column="60" lean-forward="true" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../trabalho2/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Trabalho1Controller.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/Trabalho1Controller.h">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Caminhao.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Caminhao.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/Caminhao.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="86">
@@ -121,6 +141,7 @@
         <option value="$PROJECT_DIR$/controller/Trabalho1Controller.cpp" />
         <option value="$PROJECT_DIR$/model/Caminhonete.h" />
         <option value="$PROJECT_DIR$/model/Caminhao.h" />
+        <option value="$PROJECT_DIR$/../trabalho2/main.cpp" />
       </list>
     </option>
   </component>
@@ -137,8 +158,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="51" />
     <option name="y" value="27" />
-    <option name="width" value="1315" />
-    <option name="height" value="685" />
+    <option name="width" value="1309" />
+    <option name="height" value="646" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -152,21 +173,6 @@
               <item name="trabalho1" type="b2602c69:ProjectViewProjectNode" />
               <item name="trabalho1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="trabalho1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trabalho1" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trabalho1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trabalho1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trabalho1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trabalho1" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -176,7 +182,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trabalho2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -221,12 +227,12 @@
       <workItem from="1524622321063" duration="2990000" />
       <workItem from="1524633360084" duration="6433000" />
       <workItem from="1524682138545" duration="58000" />
-      <workItem from="1524682787131" duration="1903000" />
+      <workItem from="1524682787131" duration="3089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20828000" />
+    <option name="totallyTimeSpent" value="22014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1309" height="648" extended-state="6" />
@@ -506,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/Carro.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/Veiculo.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -583,6 +582,22 @@
           <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
           <folding>
             <element signature="e#96#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Carro.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="26" column="60" lean-forward="true" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../trabalho2/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

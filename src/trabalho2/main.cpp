@@ -1,6 +1,9 @@
 #include <iostream>
+#include "./controller/Trabalho2Controller.cpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    Trabalho2Controller trabalho2Controller;
+    trabalho2Controller.execute();
     return 0;
 }

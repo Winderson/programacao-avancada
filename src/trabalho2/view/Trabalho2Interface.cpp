@@ -3,8 +3,9 @@
 //
 
 #include "Trabalho2Interface.h"
+#include "../model/Conta.h"
+#include "../model/ContaCorrente.h"
 
-
-Trabalho2Interface::exibeExtrato(Conta &conta){
-    conta.extrato();
+void Trabalho2Interface::exibeExtratoContaCorrente(ContaCorrente &contaCorrente){
+    contaCorrente.extrato();
 }

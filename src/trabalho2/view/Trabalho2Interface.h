@@ -5,14 +5,12 @@
 #ifndef TRABALHO2_TRABALHO2INTERFACE_H
 #define TRABALHO2_TRABALHO2INTERFACE_H
 #include "../view/Trabalho2Interface.h"
+#include "../model/ContaCorrente.h"
 
 class Trabalho2Interface {
 public:
-  void exibeExtrato();
+  void exibeExtratoContaCorrente(ContaCorrente &contaCorrente);
 
-
-private:
-  Trabalho2Interface _view;
 };
 
 
