@@ -8,14 +8,11 @@ using  namespace std;
 
 
 void Pilha::empilha(std::string item){
-    cout << "---- Empilhar item: " << item << endl;
     this->_pilha[this->_tamanho+1] = item;
     this->_tamanho++;
 }
 
 std::string Pilha::desempilha(){
-    cout << endl;
-    cout << " ---- Desempilhar ----" << endl;
     std:string item = this->_pilha[this->_tamanho];
     this->_pilha[this->tamanho()] = "";
     this->_tamanho--;

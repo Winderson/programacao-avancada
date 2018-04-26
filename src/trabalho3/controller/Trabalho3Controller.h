@@ -9,6 +9,8 @@
 class Trabalho3Controller {
 public:
     void execute();
+    void executeTestePilha();
+    void executeTestePonto();
 
 private:
     Trabalho3View _view;

@@ -33,11 +33,9 @@ public:
     int tamanho(){return this->_tamanho;};
     void imprime();
     void operator +=(std::string item){
-        cout << "Operador += item: " << item;
         this->empilha(item);
     };
     std::string operator --(int){
-        cout << "Operador -- ";
         return this->desempilha();
     };
 

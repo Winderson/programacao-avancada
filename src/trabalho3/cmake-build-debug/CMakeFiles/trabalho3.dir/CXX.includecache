@@ -34,13 +34,21 @@ iostream
 string
 -
 
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/model/Ponto.h
+iostream
+-
+
 /home/winderson/Universidade/programacao-avancada/src/trabalho3/view/Trabalho3View.cpp
 Trabalho3View.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho3/view/Trabalho3View.h
 ../model/Pilha.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho3/model/Pilha.h
+../model/Ponto.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/model/Ponto.h
 
 /home/winderson/Universidade/programacao-avancada/src/trabalho3/view/Trabalho3View.h
 ../model/Pilha.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho3/model/Pilha.h
+../model/Ponto.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho3/model/Ponto.h
 
