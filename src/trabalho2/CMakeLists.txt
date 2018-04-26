@@ -3,4 +3,4 @@ project(trabalho2)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(trabalho2 main.cpp view/Trabalho2Interface.cpp view/Trabalho2Interface.h)
+add_executable(trabalho2 main.cpp view/Trabalho2View.cpp view/Trabalho2View.h)

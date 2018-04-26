@@ -7,13 +7,13 @@ CMakeFiles/trabalho2.dir/main.cpp.o: .././model/Cliente.h
 CMakeFiles/trabalho2.dir/main.cpp.o: .././model/Conta.h
 CMakeFiles/trabalho2.dir/main.cpp.o: .././model/ContaCorrente.h
 CMakeFiles/trabalho2.dir/main.cpp.o: .././model/ContaPoupanca.h
-CMakeFiles/trabalho2.dir/main.cpp.o: .././view/Trabalho2Interface.h
+CMakeFiles/trabalho2.dir/main.cpp.o: .././view/Trabalho2View.h
 CMakeFiles/trabalho2.dir/main.cpp.o: ../main.cpp
 
-CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o: ../model/Cliente.h
-CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o: ../model/Conta.h
-CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o: ../model/ContaCorrente.h
-CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o: ../model/ContaPoupanca.h
-CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o: ../view/Trabalho2Interface.cpp
-CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o: ../view/Trabalho2Interface.h
+CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o: ../model/Cliente.h
+CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o: ../model/Conta.h
+CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o: ../model/ContaCorrente.h
+CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o: ../model/ContaPoupanca.h
+CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o: ../view/Trabalho2View.cpp
+CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o: ../view/Trabalho2View.h
 

@@ -177,32 +177,32 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-view/Trabalho1Interface.o: view/Trabalho1Interface.cpp.o
+view/Trabalho1View.o: view/Trabalho1View.cpp.o
 
-.PHONY : view/Trabalho1Interface.o
+.PHONY : view/Trabalho1View.o
 
 # target to build an object file
-view/Trabalho1Interface.cpp.o:
-	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o
-.PHONY : view/Trabalho1Interface.cpp.o
+view/Trabalho1View.cpp.o:
+	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/view/Trabalho1View.cpp.o
+.PHONY : view/Trabalho1View.cpp.o
 
-view/Trabalho1Interface.i: view/Trabalho1Interface.cpp.i
+view/Trabalho1View.i: view/Trabalho1View.cpp.i
 
-.PHONY : view/Trabalho1Interface.i
+.PHONY : view/Trabalho1View.i
 
 # target to preprocess a source file
-view/Trabalho1Interface.cpp.i:
-	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.i
-.PHONY : view/Trabalho1Interface.cpp.i
+view/Trabalho1View.cpp.i:
+	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/view/Trabalho1View.cpp.i
+.PHONY : view/Trabalho1View.cpp.i
 
-view/Trabalho1Interface.s: view/Trabalho1Interface.cpp.s
+view/Trabalho1View.s: view/Trabalho1View.cpp.s
 
-.PHONY : view/Trabalho1Interface.s
+.PHONY : view/Trabalho1View.s
 
 # target to generate assembly for a file
-view/Trabalho1Interface.cpp.s:
-	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.s
-.PHONY : view/Trabalho1Interface.cpp.s
+view/Trabalho1View.cpp.s:
+	$(MAKE) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/view/Trabalho1View.cpp.s
+.PHONY : view/Trabalho1View.cpp.s
 
 # Help Target
 help:
@@ -219,9 +219,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... view/Trabalho1Interface.o"
-	@echo "... view/Trabalho1Interface.i"
-	@echo "... view/Trabalho1Interface.s"
+	@echo "... view/Trabalho1View.o"
+	@echo "... view/Trabalho1View.i"
+	@echo "... view/Trabalho1View.s"
 .PHONY : help
 
 

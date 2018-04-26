@@ -81,40 +81,40 @@ CMakeFiles/trabalho2.dir/main.cpp.o.provides: CMakeFiles/trabalho2.dir/main.cpp.
 CMakeFiles/trabalho2.dir/main.cpp.o.provides.build: CMakeFiles/trabalho2.dir/main.cpp.o
 
 
-CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o: CMakeFiles/trabalho2.dir/flags.make
-CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o: ../view/Trabalho2Interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/winderson/Universidade/programacao-avancada/src/trabalho2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o -c /home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2Interface.cpp
+CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o: CMakeFiles/trabalho2.dir/flags.make
+CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o: ../view/Trabalho2View.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/winderson/Universidade/programacao-avancada/src/trabalho2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o -c /home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2View.cpp
 
-CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2Interface.cpp > CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.i
+CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2View.cpp > CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.i
 
-CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2Interface.cpp -o CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.s
+CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2View.cpp -o CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.s
 
-CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o.requires:
+CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o.requires:
 
-.PHONY : CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o.requires
+.PHONY : CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o.requires
 
-CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o.provides: CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o.requires
-	$(MAKE) -f CMakeFiles/trabalho2.dir/build.make CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o.provides.build
-.PHONY : CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o.provides
+CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o.provides: CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o.requires
+	$(MAKE) -f CMakeFiles/trabalho2.dir/build.make CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o.provides.build
+.PHONY : CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o.provides
 
-CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o.provides.build: CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o
+CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o.provides.build: CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o
 
 
 # Object files for target trabalho2
 trabalho2_OBJECTS = \
 "CMakeFiles/trabalho2.dir/main.cpp.o" \
-"CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o"
+"CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o"
 
 # External object files for target trabalho2
 trabalho2_EXTERNAL_OBJECTS =
 
 trabalho2: CMakeFiles/trabalho2.dir/main.cpp.o
-trabalho2: CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o
+trabalho2: CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o
 trabalho2: CMakeFiles/trabalho2.dir/build.make
 trabalho2: CMakeFiles/trabalho2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/winderson/Universidade/programacao-avancada/src/trabalho2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable trabalho2"
@@ -126,7 +126,7 @@ CMakeFiles/trabalho2.dir/build: trabalho2
 .PHONY : CMakeFiles/trabalho2.dir/build
 
 CMakeFiles/trabalho2.dir/requires: CMakeFiles/trabalho2.dir/main.cpp.o.requires
-CMakeFiles/trabalho2.dir/requires: CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o.requires
+CMakeFiles/trabalho2.dir/requires: CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o.requires
 
 .PHONY : CMakeFiles/trabalho2.dir/requires
 

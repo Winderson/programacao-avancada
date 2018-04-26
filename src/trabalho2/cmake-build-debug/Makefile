@@ -150,32 +150,32 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/trabalho2.dir/build.make CMakeFiles/trabalho2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-view/Trabalho2Interface.o: view/Trabalho2Interface.cpp.o
+view/Trabalho2View.o: view/Trabalho2View.cpp.o
 
-.PHONY : view/Trabalho2Interface.o
+.PHONY : view/Trabalho2View.o
 
 # target to build an object file
-view/Trabalho2Interface.cpp.o:
-	$(MAKE) -f CMakeFiles/trabalho2.dir/build.make CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o
-.PHONY : view/Trabalho2Interface.cpp.o
+view/Trabalho2View.cpp.o:
+	$(MAKE) -f CMakeFiles/trabalho2.dir/build.make CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o
+.PHONY : view/Trabalho2View.cpp.o
 
-view/Trabalho2Interface.i: view/Trabalho2Interface.cpp.i
+view/Trabalho2View.i: view/Trabalho2View.cpp.i
 
-.PHONY : view/Trabalho2Interface.i
+.PHONY : view/Trabalho2View.i
 
 # target to preprocess a source file
-view/Trabalho2Interface.cpp.i:
-	$(MAKE) -f CMakeFiles/trabalho2.dir/build.make CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.i
-.PHONY : view/Trabalho2Interface.cpp.i
+view/Trabalho2View.cpp.i:
+	$(MAKE) -f CMakeFiles/trabalho2.dir/build.make CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.i
+.PHONY : view/Trabalho2View.cpp.i
 
-view/Trabalho2Interface.s: view/Trabalho2Interface.cpp.s
+view/Trabalho2View.s: view/Trabalho2View.cpp.s
 
-.PHONY : view/Trabalho2Interface.s
+.PHONY : view/Trabalho2View.s
 
 # target to generate assembly for a file
-view/Trabalho2Interface.cpp.s:
-	$(MAKE) -f CMakeFiles/trabalho2.dir/build.make CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.s
-.PHONY : view/Trabalho2Interface.cpp.s
+view/Trabalho2View.cpp.s:
+	$(MAKE) -f CMakeFiles/trabalho2.dir/build.make CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.s
+.PHONY : view/Trabalho2View.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... view/Trabalho2Interface.o"
-	@echo "... view/Trabalho2Interface.i"
-	@echo "... view/Trabalho2Interface.s"
+	@echo "... view/Trabalho2View.o"
+	@echo "... view/Trabalho2View.i"
+	@echo "... view/Trabalho2View.s"
 .PHONY : help
 
 

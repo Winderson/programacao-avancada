@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/winderson/Universidade/programacao-avancada/src/trabalho2/main.cpp" "/home/winderson/Universidade/programacao-avancada/src/trabalho2/cmake-build-debug/CMakeFiles/trabalho2.dir/main.cpp.o"
-  "/home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2Interface.cpp" "/home/winderson/Universidade/programacao-avancada/src/trabalho2/cmake-build-debug/CMakeFiles/trabalho2.dir/view/Trabalho2Interface.cpp.o"
+  "/home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2View.cpp" "/home/winderson/Universidade/programacao-avancada/src/trabalho2/cmake-build-debug/CMakeFiles/trabalho2.dir/view/Trabalho2View.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

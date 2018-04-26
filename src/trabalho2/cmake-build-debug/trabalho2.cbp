@@ -87,10 +87,10 @@
 		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho2/main.cpp">
 			<Option target="trabalho2"/>
 		</Unit>
-		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2Interface.cpp">
+		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2View.cpp">
 			<Option target="trabalho2"/>
 		</Unit>
-		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2Interface.h">
+		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2View.h">
 			<Option target="trabalho2"/>
 		</Unit>
 		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho2/CMakeLists.txt">

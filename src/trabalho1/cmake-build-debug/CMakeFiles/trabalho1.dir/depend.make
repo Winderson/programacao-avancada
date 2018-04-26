@@ -7,20 +7,20 @@ CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o: ../model/Caminhao
 CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o: ../model/Caminhonete.h
 CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o: ../model/Carro.h
 CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o: ../model/Veiculo.h
-CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o: ../view/Trabalho1Interface.h
+CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o: ../view/Trabalho1View.h
 
 CMakeFiles/trabalho1.dir/main.cpp.o: .././controller/Trabalho1Controller.h
 CMakeFiles/trabalho1.dir/main.cpp.o: .././model/Caminhao.h
 CMakeFiles/trabalho1.dir/main.cpp.o: .././model/Caminhonete.h
 CMakeFiles/trabalho1.dir/main.cpp.o: .././model/Carro.h
 CMakeFiles/trabalho1.dir/main.cpp.o: .././model/Veiculo.h
-CMakeFiles/trabalho1.dir/main.cpp.o: .././view/Trabalho1Interface.h
+CMakeFiles/trabalho1.dir/main.cpp.o: .././view/Trabalho1View.h
 CMakeFiles/trabalho1.dir/main.cpp.o: ../main.cpp
 
-CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o: ../model/Caminhao.h
-CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o: ../model/Caminhonete.h
-CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o: ../model/Carro.h
-CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o: ../model/Veiculo.h
-CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o: ../view/Trabalho1Interface.cpp
-CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o: ../view/Trabalho1Interface.h
+CMakeFiles/trabalho1.dir/view/Trabalho1View.cpp.o: ../model/Caminhao.h
+CMakeFiles/trabalho1.dir/view/Trabalho1View.cpp.o: ../model/Caminhonete.h
+CMakeFiles/trabalho1.dir/view/Trabalho1View.cpp.o: ../model/Carro.h
+CMakeFiles/trabalho1.dir/view/Trabalho1View.cpp.o: ../model/Veiculo.h
+CMakeFiles/trabalho1.dir/view/Trabalho1View.cpp.o: ../view/Trabalho1View.cpp
+CMakeFiles/trabalho1.dir/view/Trabalho1View.cpp.o: ../view/Trabalho1View.h
 

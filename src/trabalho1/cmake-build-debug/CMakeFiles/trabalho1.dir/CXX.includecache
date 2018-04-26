@@ -7,8 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/winderson/Universidade/programacao-avancada/src/trabalho1/./controller/Trabalho1Controller.h
-../view/Trabalho1Interface.h
-/home/winderson/Universidade/programacao-avancada/src/trabalho1/./view/Trabalho1Interface.h
+../view/Trabalho1View.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho1/./view/Trabalho1View.h
 
 /home/winderson/Universidade/programacao-avancada/src/trabalho1/./model/Caminhao.h
 iostream
@@ -36,7 +36,7 @@ iostream
 string
 -
 
-/home/winderson/Universidade/programacao-avancada/src/trabalho1/./view/Trabalho1Interface.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho1/./view/Trabalho1View.h
 ../model/Veiculo.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho1/./model/Veiculo.h
 ../model/Carro.h
@@ -59,8 +59,8 @@ Trabalho1Controller.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho1/model/Caminhonete.h
 
 /home/winderson/Universidade/programacao-avancada/src/trabalho1/controller/Trabalho1Controller.h
-../view/Trabalho1Interface.h
-/home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1Interface.h
+../view/Trabalho1View.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1View.h
 
 /home/winderson/Universidade/programacao-avancada/src/trabalho1/main.cpp
 iostream
@@ -96,11 +96,11 @@ iostream
 string
 -
 
-/home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1Interface.cpp
+/home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1View.cpp
 iostream
 -
-Trabalho1Interface.h
-/home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1Interface.h
+Trabalho1View.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1View.h
 ../model/Veiculo.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho1/model/Veiculo.h
 ../model/Carro.h
@@ -112,7 +112,7 @@ Trabalho1Interface.h
 string
 -
 
-/home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1Interface.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1View.h
 ../model/Veiculo.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho1/model/Veiculo.h
 ../model/Carro.h

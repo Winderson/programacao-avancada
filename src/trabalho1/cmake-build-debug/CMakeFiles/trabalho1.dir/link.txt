@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/trabalho1.dir/main.cpp.o CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o CMakeFiles/trabalho1.dir/view/Trabalho1Interface.cpp.o  -o trabalho1 
+/usr/bin/c++  -g   CMakeFiles/trabalho1.dir/main.cpp.o CMakeFiles/trabalho1.dir/controller/Trabalho1Controller.cpp.o CMakeFiles/trabalho1.dir/view/Trabalho1View.cpp.o  -o trabalho1 

@@ -5,7 +5,7 @@
 #ifndef TRABALHO1CONTROLLER_H
 #define TRABALHO1CONTROLLER_H
 
-#include "../view/Trabalho1Interface.h"
+#include "../view/Trabalho1View.h"
 
 class Trabalho1Controller {
 
@@ -19,7 +19,7 @@ public:
 
 
 private :
-    Trabalho1Interface _view;
+    Trabalho1View _view;
 };
 
 

@@ -15,8 +15,8 @@ Trabalho2Controller.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho2/./model/ContaCorrente.h
 
 /home/winderson/Universidade/programacao-avancada/src/trabalho2/./controller/Trabalho2Controller.h
-../view/Trabalho2Interface.h
-/home/winderson/Universidade/programacao-avancada/src/trabalho2/./view/Trabalho2Interface.h
+../view/Trabalho2View.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho2/./view/Trabalho2View.h
 
 /home/winderson/Universidade/programacao-avancada/src/trabalho2/./model/Cliente.h
 string
@@ -35,8 +35,10 @@ Conta.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho2/./model/ContaPoupanca.h
 Conta.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho2/./model/Conta.h
+math.h
+-
 
-/home/winderson/Universidade/programacao-avancada/src/trabalho2/./view/Trabalho2Interface.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho2/./view/Trabalho2View.h
 ../model/ContaPoupanca.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho2/./model/ContaPoupanca.h
 ../model/ContaCorrente.h
@@ -65,10 +67,12 @@ Conta.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho2/model/ContaPoupanca.h
 Conta.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho2/model/Conta.h
+math.h
+-
 
-/home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2Interface.cpp
-Trabalho2Interface.h
-/home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2Interface.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2View.cpp
+Trabalho2View.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2View.h
 ../model/Conta.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho2/model/Conta.h
 ../model/ContaCorrente.h
@@ -76,7 +80,7 @@ Trabalho2Interface.h
 ../model/ContaPoupanca.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho2/model/ContaPoupanca.h
 
-/home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2Interface.h
+/home/winderson/Universidade/programacao-avancada/src/trabalho2/view/Trabalho2View.h
 ../model/ContaPoupanca.h
 /home/winderson/Universidade/programacao-avancada/src/trabalho2/model/ContaPoupanca.h
 ../model/ContaCorrente.h

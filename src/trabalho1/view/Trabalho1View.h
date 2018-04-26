@@ -9,7 +9,7 @@
 #include "../model/Caminhao.h"
 #include "../model/Caminhonete.h"
 
-class Trabalho1Interface {
+class Trabalho1View {
 
 public:
     void exibeMenu();

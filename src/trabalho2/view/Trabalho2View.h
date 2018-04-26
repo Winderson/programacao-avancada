@@ -7,9 +7,9 @@
 #include "../model/ContaPoupanca.h"
 #include "../model/ContaCorrente.h"
 
-class Trabalho2Interface {
+class Trabalho2View {
 public:
-    Trabalho2Interface() {};
+    Trabalho2View() {};
     void exibeExtratoContaCorrente(ContaCorrente &contaCorrente);
     void exibeExtratoContaPoupanca(ContaPoupanca &contaPoupanca);
 };

@@ -2,7 +2,7 @@
 // Created by winderson on 13/04/18.
 //
 #include <iostream>
-#include "Trabalho1Interface.h"
+#include "Trabalho1View.h"
 #include "../model/Veiculo.h"
 #include "../model/Carro.h"
 #include "../model/Caminhao.h"
@@ -20,7 +20,7 @@ using namespace std;
 //    cout << "5) Sair" << endl;
 //}
 
-void Trabalho1Interface::exibeMenu() {
+void Trabalho1View::exibeMenu() {
     cout << "Trabalho 1 - Heranca" << endl;
     cout << "Menu: " << endl;
     cout << "1) Teste de criação de veiculos" << endl;
@@ -29,35 +29,35 @@ void Trabalho1Interface::exibeMenu() {
 }
 
 
-void Trabalho1Interface::exibeVeiculo(Veiculo &veiculo){
+void Trabalho1View::exibeVeiculo(Veiculo &veiculo){
     cout << "Veiculo: "<< endl;
     veiculo.imprime();
     cout << endl;
 }
 
-void Trabalho1Interface::exibeCarro(Carro &carro){
+void Trabalho1View::exibeCarro(Carro &carro){
     cout << "Carro: "<< endl;
     carro.imprime();
     cout << endl;
 }
 
-void Trabalho1Interface::exibeCaminhao(Caminhao &caminhao){
+void Trabalho1View::exibeCaminhao(Caminhao &caminhao){
     cout << "Caminhao: "<< endl;
     caminhao.imprime();
     cout << endl;
 }
 
-void Trabalho1Interface::exibeCaminhonete(Caminhonete &caminhonete){
+void Trabalho1View::exibeCaminhonete(Caminhonete &caminhonete){
     cout << "Caminhonete: "<< endl;
     caminhonete.imprime();
     cout << endl;
 }
 
-void Trabalho1Interface::exibeErroOpcaoInvalida() {
+void Trabalho1View::exibeErroOpcaoInvalida() {
     cerr << "Opcao Invalida!" << endl;
 }
 
-int Trabalho1Interface::leOpcao() {
+int Trabalho1View::leOpcao() {
     cout << "Opcao: ";
     int opcao = 0;
     cin >> opcao;

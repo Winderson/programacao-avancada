@@ -93,10 +93,10 @@
 		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho1/main.cpp">
 			<Option target="trabalho1"/>
 		</Unit>
-		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1Interface.cpp">
+		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1View.cpp">
 			<Option target="trabalho1"/>
 		</Unit>
-		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1Interface.h">
+		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho1/view/Trabalho1View.h">
 			<Option target="trabalho1"/>
 		</Unit>
 		<Unit filename="/home/winderson/Universidade/programacao-avancada/src/trabalho1/CMakeLists.txt">
