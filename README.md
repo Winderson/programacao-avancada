@@ -4,13 +4,13 @@
 ## Trabalho 1 (Herança):
 ### Classe Trabalho1View
 #### Métodos: 
-- void exibeMenu();
-- void exibeErroOpcaoInvalida();
-- void exibeVeiculo(Veiculo &veiculo);
-- void exibeCarro(Carro &carro);
-- void exibeCaminhao(Caminhao &caminhao);
-- void exibeCaminhonete(Caminhonete &caminhonete);
-- int leOpcao();
+	- void exibeMenu();
+	- void exibeErroOpcaoInvalida();
+	- void exibeVeiculo(Veiculo &veiculo);
+	- void exibeCarro(Carro &carro);
+	- void exibeCaminhao(Caminhao &caminhao);
+	- void exibeCaminhonete(Caminhonete &caminhonete);
+	- int leOpcao();
 		
 		Classe Trabalho1Controller
 			Atributos - view
