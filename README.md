@@ -96,3 +96,56 @@
 - imprime()
 ##### Arquivos: 
 - Caminhonete.h
+
+## Trabalho2(Classes abstratas)	
+
+##### Atributos
+- view
+##### Métodos 
+- executa()
+
+### Classe Trabalho2View
+##### Métodos
+- exibeExtratoContaCorrente(ContaCorrente &contaCorrente)
+- exibeExtratoContaPoupanca(ContaPoupanca &contaPoupanca)
+
+##### Arquivos
+- Trabalho2View.h
+- Trabalho2View.cpp
+
+
+### Classe Trabalho2COntroller
+
+### Classe Conta
+##### Atributos
+- _numero
+- _saldo;
+- _cliente;
+##### Construtores
+- Conta()
+- Conta(numero, nome)
+##### Métodos 
+- extrato()
+- deposita()
+- retira()
+- transfere();
+- aplicaJurosDiarios(int dias)
+##### Métodos mutantes
+- Getters
+- Setters
+
+### Classe ContaCorrente
+##### Construtores
+- ContaCorrente()
+- ContaCorrente(numero, nome)
+##### Métodos 
+- extrato()
+- aplicaJurosDiarios(int dias)
+
+### Classe ContaPoupanca
+##### Construtores
+- ContaPoupanca()
+- ContaPoupanca(numero, nome)
+##### Métodos 
+- extrato()
+- aplicaJurosDiarios(int dias)
