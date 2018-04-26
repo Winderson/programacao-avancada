@@ -149,3 +149,61 @@
 ##### Métodos 
 - extrato()
 - aplicaJurosDiarios(int dias)
+
+## Trabalho3(sobrecarga)
+
+### Classe Trabalho3View
+##### Métodos 
+- exibePilha(Pilha &pilha);
+- exibePonto(Ponto &ponto);
+- exibeCoordenadaX();
+- exibeCoordenadaY();
+
+### Classe Trabalho3Controller
+
+##### Atributos
+- view(Trabalho3View)
+
+##### Métodos 
+- execute();
+- executeTestePilha();
+- executeTestePonto();
+
+### Classe Pilha
+
+##### Atributos
+- _tamanho
+- *_pilha 
+
+###### Construtores
+- Pilha()
+- Pilha(tamanhoAlocado)
+
+##### Métodos 
+- empilha()
+- desempilha()
+- tamanho
+- imprime()
+
+##### Arquivos
+- Pilha.h
+- Pilha.cpp
+
+
+### Classe Ponto
+###### Atributos
+- x
+- y
+###### Construtores
+- Ponto()
+- Ponto(x,y)
+
+##### Métodos 
+- operator+(Ponto ponto)
+- operator-(Ponto ponto)
+- operator*(Ponto ponto)
+- operator*(escalar)
+- operator[](indice)
+
+##### Arquivos
+- Ponto.h
