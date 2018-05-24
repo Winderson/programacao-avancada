@@ -1,0 +1,56 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/control/LojaController.cpp
+LojaController.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/control/LojaController.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/control/LojaController.h
+../view/LojaView.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/view/LojaView.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/main.cpp
+iostream
+-
+control/LojaController.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/control/LojaController.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/model/Jogo.cpp
+Jogo.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/model/Jogo.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/model/Jogo.h
+iostream
+-
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/model/JogoDAO.cpp
+JogoDAO.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/model/JogoDAO.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/model/JogoDAO.h
+iostream
+-
+vector
+-
+Jogo.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/model/Jogo.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/view/LojaView.cpp
+LojaView.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/view/LojaView.h
+string
+-
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/view/LojaView.h
+iostream
+-
+vector
+-
+../model/Jogo.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/model/Jogo.h
+
