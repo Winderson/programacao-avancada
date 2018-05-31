@@ -14,8 +14,12 @@ public:
     bool insere(Jogo jogo);
     bool insere(std::vector<Jogo> jogos);
     std::vector<Jogo> consulta();
+    Jogo consulta(int id);
     bool deleta(int id);
     bool atualiza(Jogo jogo);
+    vector<string> split(string str, const char* op);
+private :
+    int indice = 0;
 };
 
 

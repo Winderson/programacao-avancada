@@ -4,11 +4,13 @@
 CMakeFiles/trabalho5.dir/control/LojaController.cpp.o: ../control/LojaController.cpp
 CMakeFiles/trabalho5.dir/control/LojaController.cpp.o: ../control/LojaController.h
 CMakeFiles/trabalho5.dir/control/LojaController.cpp.o: ../model/Jogo.h
+CMakeFiles/trabalho5.dir/control/LojaController.cpp.o: ../model/JogoDAO.h
 CMakeFiles/trabalho5.dir/control/LojaController.cpp.o: ../view/LojaView.h
 
 CMakeFiles/trabalho5.dir/main.cpp.o: ../control/LojaController.h
 CMakeFiles/trabalho5.dir/main.cpp.o: ../main.cpp
 CMakeFiles/trabalho5.dir/main.cpp.o: ../model/Jogo.h
+CMakeFiles/trabalho5.dir/main.cpp.o: ../model/JogoDAO.h
 CMakeFiles/trabalho5.dir/main.cpp.o: ../view/LojaView.h
 
 CMakeFiles/trabalho5.dir/model/Jogo.cpp.o: ../model/Jogo.cpp

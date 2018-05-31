@@ -9,10 +9,14 @@
 /home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/control/LojaController.cpp
 LojaController.h
 /home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/control/LojaController.h
+../model/Jogo.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/model/Jogo.h
 
 /home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/control/LojaController.h
 ../view/LojaView.h
 /home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/view/LojaView.h
+../model/JogoDAO.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/model/JogoDAO.h
 
 /home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/main.cpp
 iostream
@@ -31,6 +35,10 @@ iostream
 /home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/model/JogoDAO.cpp
 JogoDAO.h
 /home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/model/JogoDAO.h
+iostream
+-
+fstream
+-
 
 /home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/trabalho5/model/JogoDAO.h
 iostream

@@ -5,6 +5,7 @@
 #ifndef LOJACONTROLLER_H
 #define LOJACONTROLLER_H
 #include "../view/LojaView.h"
+#include "../model/JogoDAO.h"
 
 class LojaController {
 public:
@@ -12,6 +13,7 @@ public:
 
 private:
     LojaView lojaView;
+    JogoDAO jogoDAO;
 };
 
 

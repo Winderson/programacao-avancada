@@ -13,7 +13,8 @@ public:
     // Métodos
     int exibeMenu();
     Jogo leituraJogo();
-    void exibeJogos(std::vector<Jogo> jogos);
+    void exibeJogo(Jogo jogo);
+    int leituraID();
     int deletaJogo();
     Jogo atualizaJogo();
     void exibeSaida();
