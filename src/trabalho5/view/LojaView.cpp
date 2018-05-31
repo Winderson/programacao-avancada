@@ -11,7 +11,7 @@ int LojaView::exibeMenu() {
     cout << endl;
     cout << "######### LOJA DE JOGOS ELETRÔNICOS #########" << endl;
     cout << "1. Inserir Jogo" << endl;
-    cout << "2. Inserir vários jogos" << endl;
+    cout << "2. Listar jogos" << endl;
     cout << "3. Consultar jogo" << endl;
     cout << "4. Deletar jogo" << endl;
     cout << "5. Atualizar jogo"  << endl;
@@ -23,36 +23,39 @@ int LojaView::exibeMenu() {
 }
 
 
-int LojaView::leituraID() {
+int LojaView::leituraID(string tipo) {
     int id= 0;
-    cout << "Digite o ID do jogo que deseja selecionar: ";
+
+    if(tipo == "selecao") {
+        cout << "Digite o ID do jogo que deseja selecionar: ";
+    } else if (tipo == "atualizacao"){
+        cout << "Digite o ID do jogo que deseja atualizar: ";
+    } else if (tipo == "exclusao"){
+        cout << "Digite o ID do jogo que deseja excluir: ";
+    }
     cin >> id;
     return id;
 }
 
 Jogo LojaView::leituraJogo(){
     Jogo jogo;
-    string titulo;
-    string categoria;
-    string plataforma;
-    int quantidade;
-    double preco;
-//    cout << "Preencha os dados do jogo:" << endl;
-//    cout << "Título: ";
-//    cin >> titulo;
-//    cout << endl;
-//    cout << "Categoria: ";
-//    cin >> categoria;
-//    cout << endl;
-//    cout << "Plataforma: ";
-//    cin >> plataforma;
-//    cout << endl;
-//    cout << "Quantidade: ";
-//    cin >> quantidade;
-//    cout << endl;
-//    cout << "Preço: 1";
-//    cin >> preco;
-//    cout << endl;
+    string titulo ="";
+    string categoria = "";
+    string plataforma = "";
+    int quantidade =0;
+    double preco = 0.0;
+    cout << "Preencha os dados do jogo:" << endl;
+    cout << "Título: ";
+    cin >> titulo;
+    cout << "Categoria: ";
+    cin >> categoria;
+    cout << "Plataforma: ";
+    cin >> plataforma;
+    cout << "Quantidade: ";
+    cin >> quantidade;
+    cout << "Preço: ";
+    cin >> preco;
+    cout << endl;
 
 //    titulo = "Need for Speed";
 //    categoria = "Corrida";
@@ -60,13 +63,11 @@ Jogo LojaView::leituraJogo(){
 //    quantidade = 2;
 //    preco = 59.90;
 
-    titulo = "Need For Speed";
-    categoria = "Corrida";
-    plataforma = "PlayStation 4";
-    quantidade = 2;
-    preco = 59.90;
-
-
+//    titulo = "Need For Speed";
+//    categoria = "Corrida";
+//    plataforma = "PlayStation 4";
+//    quantidade = 2;
+//    preco = 59.90;
     jogo.set_titulo(titulo);
     jogo.set_categoria(categoria);
     jogo.set_plataforma(plataforma);
@@ -75,13 +76,24 @@ Jogo LojaView::leituraJogo(){
     return jogo;
 }
 
+void LojaView::exibeJogos(vector<Jogo> jogos) {
+    for(int indice =0; indice <jogos.size();indice++) {
+        cout << "| Id: " << jogos[indice].get_id();
+        cout << "| Título: " << jogos[indice].get_titulo();
+        cout << "| Categoria: " << jogos[indice].get_categoria();
+        cout << "| Plataforma: " << jogos[indice].get_plataforma();
+        cout << "| Quantidade: " << jogos[indice].get_quantidade();
+        cout << "| Preço: R$ 2" << jogos[indice].get_preco() << "|" << endl;
+    }
+}
+
 
 void LojaView::exibeJogo(Jogo jogo){
     cout << endl;
     cout << "##########  #########  |Id: " <<jogo.get_id()<< endl;
     cout << "    ##      ##         |Título: " << jogo.get_titulo() << endl ;
     cout << "    ##      #########  |Plataforma: " << jogo.get_categoria() << endl;
-    cout << "    ##             ##  |Preço: " << jogo.get_plataforma() << endl;
+    cout << "    ##             ##  |Preço: R$ " << jogo.get_preco()<< endl;
     cout << "    ##      #########  |Quantidade: " << jogo.get_quantidade() << endl;
 }
 

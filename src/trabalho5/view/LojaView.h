@@ -7,14 +7,16 @@
 #include <iostream>
 #include <vector>
 #include "../model/Jogo.h"
-
+#include <string>
+using namespace std;
 class LojaView {
 public:
     // Métodos
     int exibeMenu();
     Jogo leituraJogo();
     void exibeJogo(Jogo jogo);
-    int leituraID();
+    void exibeJogos(vector<Jogo> jogos);
+    int leituraID(string tipo);
     int deletaJogo();
     Jogo atualizaJogo();
     void exibeSaida();
