@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.cpp
+Animal.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.h
+string
+-
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/AnimalNulo.cpp
+AnimalNulo.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/AnimalNulo.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/AnimalNulo.h
+Animal.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/ExecutorNullObject.cpp
+ExecutorNullObject.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/ExecutorNullObject.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/ExecutorNullObject.h
+iostream
+-
+vector
+-
+Animal.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.h
+Mamifero.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Mamifero.h
+AnimalNulo.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/AnimalNulo.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Mamifero.cpp
+Mamifero.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Mamifero.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Mamifero.h
+Animal.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Singleton.cpp
+Singleton.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Singleton.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Singleton.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/main.cpp
+iostream
+-
+designPattern/ExecutorNullObject.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/ExecutorNullObject.h
+string
+-
+

@@ -1,0 +1,3 @@
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles/estudo_dirigido.dir

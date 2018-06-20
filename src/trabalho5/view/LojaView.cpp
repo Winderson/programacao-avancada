@@ -42,19 +42,21 @@ Jogo LojaView::leituraJogo(){
     string titulo ="";
     string categoria = "";
     string plataforma = "";
-    int quantidade =0;
-    double preco = 0.0;
+    string quantidade ="";
+    string preco = "";
+    
     cout << "Preencha os dados do jogo:" << endl;
     cout << "Título: ";
-    cin >> titulo;
+    getline(cin, titulo);
+    cout << endl;
     cout << "Categoria: ";
-    cin >> categoria;
+    getline(cin, categoria);
     cout << "Plataforma: ";
-    cin >> plataforma;
+    getline(cin, plataforma);
     cout << "Quantidade: ";
-    cin >> quantidade;
+    getline(cin, quantidade);
     cout << "Preço: ";
-    cin >> preco;
+    getline(cin, preco);
     cout << endl;
 
 //    titulo = "Need for Speed";
@@ -71,8 +73,8 @@ Jogo LojaView::leituraJogo(){
     jogo.set_titulo(titulo);
     jogo.set_categoria(categoria);
     jogo.set_plataforma(plataforma);
-    jogo.set_quantidade(quantidade);
-    jogo.set_preco(preco);
+    jogo.set_quantidade(stoi(quantidade));
+    jogo.set_preco(stod(preco));
     return jogo;
 }
 
