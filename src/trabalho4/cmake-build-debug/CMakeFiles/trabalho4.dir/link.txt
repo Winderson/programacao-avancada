@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/trabalho4.dir/main.cpp.o CMakeFiles/trabalho4.dir/Matriz.cpp.o  -o trabalho4 
