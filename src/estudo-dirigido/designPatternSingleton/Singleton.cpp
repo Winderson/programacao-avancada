@@ -10,11 +10,11 @@ Singleton* Singleton::singleton = 0;
  * Método estático de acesso a intância
  * @return
  */
-Singleton* Singleton::getInstance()
-{
+//Singleton* Singleton::getInstance()
+//{
 //    if (singleton == 0)
 //    {
 //        singleton = new Singleton();
 //    }
-    return singleton;
-}
+//    return singleton;
+//}

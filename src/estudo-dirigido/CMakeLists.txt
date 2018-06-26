@@ -3,4 +3,4 @@ project(estudo_dirigido)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(estudo_dirigido main.cpp designPattern/Singleton.cpp designPattern/Singleton.h designPattern/Animal.cpp designPattern/Animal.h designPattern/Mamifero.cpp designPattern/Mamifero.h designPattern/ExecutorNullObject.cpp designPattern/ExecutorNullObject.h designPattern/AnimalNulo.cpp designPattern/AnimalNulo.h)
+add_executable(estudo_dirigido main.cpp designPatternSingleton/Singleton.cpp designPatternSingleton/Singleton.h designPatternNullObject/Animal.cpp designPatternNullObject/Animal.h designPatternNullObject/Mamifero.cpp designPatternNullObject/Mamifero.h designPatternNullObject/ExecutorNullObject.cpp designPatternNullObject/ExecutorNullObject.h designPatternNullObject/AnimalNulo.cpp designPatternNullObject/AnimalNulo.h designPatternSingleton/FabricaCarro.cpp designPatternSingleton/FabricaCarro.h designPatternSingleton/ExecutorSingleton.cpp designPatternSingleton/ExecutorSingleton.h)

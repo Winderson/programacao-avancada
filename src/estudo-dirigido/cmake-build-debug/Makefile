@@ -123,140 +123,194 @@ estudo_dirigido/fast:
 	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/build
 .PHONY : estudo_dirigido/fast
 
-designPattern/Animal.o: designPattern/Animal.cpp.o
+designPatternNullObject/Animal.o: designPatternNullObject/Animal.cpp.o
 
-.PHONY : designPattern/Animal.o
-
-# target to build an object file
-designPattern/Animal.cpp.o:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o
-.PHONY : designPattern/Animal.cpp.o
-
-designPattern/Animal.i: designPattern/Animal.cpp.i
-
-.PHONY : designPattern/Animal.i
-
-# target to preprocess a source file
-designPattern/Animal.cpp.i:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.i
-.PHONY : designPattern/Animal.cpp.i
-
-designPattern/Animal.s: designPattern/Animal.cpp.s
-
-.PHONY : designPattern/Animal.s
-
-# target to generate assembly for a file
-designPattern/Animal.cpp.s:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.s
-.PHONY : designPattern/Animal.cpp.s
-
-designPattern/AnimalNulo.o: designPattern/AnimalNulo.cpp.o
-
-.PHONY : designPattern/AnimalNulo.o
+.PHONY : designPatternNullObject/Animal.o
 
 # target to build an object file
-designPattern/AnimalNulo.cpp.o:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o
-.PHONY : designPattern/AnimalNulo.cpp.o
+designPatternNullObject/Animal.cpp.o:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o
+.PHONY : designPatternNullObject/Animal.cpp.o
 
-designPattern/AnimalNulo.i: designPattern/AnimalNulo.cpp.i
+designPatternNullObject/Animal.i: designPatternNullObject/Animal.cpp.i
 
-.PHONY : designPattern/AnimalNulo.i
+.PHONY : designPatternNullObject/Animal.i
 
 # target to preprocess a source file
-designPattern/AnimalNulo.cpp.i:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.i
-.PHONY : designPattern/AnimalNulo.cpp.i
+designPatternNullObject/Animal.cpp.i:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.i
+.PHONY : designPatternNullObject/Animal.cpp.i
 
-designPattern/AnimalNulo.s: designPattern/AnimalNulo.cpp.s
+designPatternNullObject/Animal.s: designPatternNullObject/Animal.cpp.s
 
-.PHONY : designPattern/AnimalNulo.s
+.PHONY : designPatternNullObject/Animal.s
 
 # target to generate assembly for a file
-designPattern/AnimalNulo.cpp.s:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.s
-.PHONY : designPattern/AnimalNulo.cpp.s
+designPatternNullObject/Animal.cpp.s:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.s
+.PHONY : designPatternNullObject/Animal.cpp.s
 
-designPattern/ExecutorNullObject.o: designPattern/ExecutorNullObject.cpp.o
+designPatternNullObject/AnimalNulo.o: designPatternNullObject/AnimalNulo.cpp.o
 
-.PHONY : designPattern/ExecutorNullObject.o
+.PHONY : designPatternNullObject/AnimalNulo.o
 
 # target to build an object file
-designPattern/ExecutorNullObject.cpp.o:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o
-.PHONY : designPattern/ExecutorNullObject.cpp.o
+designPatternNullObject/AnimalNulo.cpp.o:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o
+.PHONY : designPatternNullObject/AnimalNulo.cpp.o
 
-designPattern/ExecutorNullObject.i: designPattern/ExecutorNullObject.cpp.i
+designPatternNullObject/AnimalNulo.i: designPatternNullObject/AnimalNulo.cpp.i
 
-.PHONY : designPattern/ExecutorNullObject.i
+.PHONY : designPatternNullObject/AnimalNulo.i
 
 # target to preprocess a source file
-designPattern/ExecutorNullObject.cpp.i:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.i
-.PHONY : designPattern/ExecutorNullObject.cpp.i
+designPatternNullObject/AnimalNulo.cpp.i:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.i
+.PHONY : designPatternNullObject/AnimalNulo.cpp.i
 
-designPattern/ExecutorNullObject.s: designPattern/ExecutorNullObject.cpp.s
+designPatternNullObject/AnimalNulo.s: designPatternNullObject/AnimalNulo.cpp.s
 
-.PHONY : designPattern/ExecutorNullObject.s
+.PHONY : designPatternNullObject/AnimalNulo.s
 
 # target to generate assembly for a file
-designPattern/ExecutorNullObject.cpp.s:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.s
-.PHONY : designPattern/ExecutorNullObject.cpp.s
+designPatternNullObject/AnimalNulo.cpp.s:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.s
+.PHONY : designPatternNullObject/AnimalNulo.cpp.s
 
-designPattern/Mamifero.o: designPattern/Mamifero.cpp.o
+designPatternNullObject/ExecutorNullObject.o: designPatternNullObject/ExecutorNullObject.cpp.o
 
-.PHONY : designPattern/Mamifero.o
+.PHONY : designPatternNullObject/ExecutorNullObject.o
 
 # target to build an object file
-designPattern/Mamifero.cpp.o:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o
-.PHONY : designPattern/Mamifero.cpp.o
+designPatternNullObject/ExecutorNullObject.cpp.o:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o
+.PHONY : designPatternNullObject/ExecutorNullObject.cpp.o
 
-designPattern/Mamifero.i: designPattern/Mamifero.cpp.i
+designPatternNullObject/ExecutorNullObject.i: designPatternNullObject/ExecutorNullObject.cpp.i
 
-.PHONY : designPattern/Mamifero.i
+.PHONY : designPatternNullObject/ExecutorNullObject.i
 
 # target to preprocess a source file
-designPattern/Mamifero.cpp.i:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.i
-.PHONY : designPattern/Mamifero.cpp.i
+designPatternNullObject/ExecutorNullObject.cpp.i:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.i
+.PHONY : designPatternNullObject/ExecutorNullObject.cpp.i
 
-designPattern/Mamifero.s: designPattern/Mamifero.cpp.s
+designPatternNullObject/ExecutorNullObject.s: designPatternNullObject/ExecutorNullObject.cpp.s
 
-.PHONY : designPattern/Mamifero.s
+.PHONY : designPatternNullObject/ExecutorNullObject.s
 
 # target to generate assembly for a file
-designPattern/Mamifero.cpp.s:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.s
-.PHONY : designPattern/Mamifero.cpp.s
+designPatternNullObject/ExecutorNullObject.cpp.s:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.s
+.PHONY : designPatternNullObject/ExecutorNullObject.cpp.s
 
-designPattern/Singleton.o: designPattern/Singleton.cpp.o
+designPatternNullObject/Mamifero.o: designPatternNullObject/Mamifero.cpp.o
 
-.PHONY : designPattern/Singleton.o
+.PHONY : designPatternNullObject/Mamifero.o
 
 # target to build an object file
-designPattern/Singleton.cpp.o:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o
-.PHONY : designPattern/Singleton.cpp.o
+designPatternNullObject/Mamifero.cpp.o:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o
+.PHONY : designPatternNullObject/Mamifero.cpp.o
 
-designPattern/Singleton.i: designPattern/Singleton.cpp.i
+designPatternNullObject/Mamifero.i: designPatternNullObject/Mamifero.cpp.i
 
-.PHONY : designPattern/Singleton.i
+.PHONY : designPatternNullObject/Mamifero.i
 
 # target to preprocess a source file
-designPattern/Singleton.cpp.i:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.i
-.PHONY : designPattern/Singleton.cpp.i
+designPatternNullObject/Mamifero.cpp.i:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.i
+.PHONY : designPatternNullObject/Mamifero.cpp.i
 
-designPattern/Singleton.s: designPattern/Singleton.cpp.s
+designPatternNullObject/Mamifero.s: designPatternNullObject/Mamifero.cpp.s
 
-.PHONY : designPattern/Singleton.s
+.PHONY : designPatternNullObject/Mamifero.s
 
 # target to generate assembly for a file
-designPattern/Singleton.cpp.s:
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.s
-.PHONY : designPattern/Singleton.cpp.s
+designPatternNullObject/Mamifero.cpp.s:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.s
+.PHONY : designPatternNullObject/Mamifero.cpp.s
+
+designPatternSingleton/ExecutorSingleton.o: designPatternSingleton/ExecutorSingleton.cpp.o
+
+.PHONY : designPatternSingleton/ExecutorSingleton.o
+
+# target to build an object file
+designPatternSingleton/ExecutorSingleton.cpp.o:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o
+.PHONY : designPatternSingleton/ExecutorSingleton.cpp.o
+
+designPatternSingleton/ExecutorSingleton.i: designPatternSingleton/ExecutorSingleton.cpp.i
+
+.PHONY : designPatternSingleton/ExecutorSingleton.i
+
+# target to preprocess a source file
+designPatternSingleton/ExecutorSingleton.cpp.i:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.i
+.PHONY : designPatternSingleton/ExecutorSingleton.cpp.i
+
+designPatternSingleton/ExecutorSingleton.s: designPatternSingleton/ExecutorSingleton.cpp.s
+
+.PHONY : designPatternSingleton/ExecutorSingleton.s
+
+# target to generate assembly for a file
+designPatternSingleton/ExecutorSingleton.cpp.s:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.s
+.PHONY : designPatternSingleton/ExecutorSingleton.cpp.s
+
+designPatternSingleton/FabricaCarro.o: designPatternSingleton/FabricaCarro.cpp.o
+
+.PHONY : designPatternSingleton/FabricaCarro.o
+
+# target to build an object file
+designPatternSingleton/FabricaCarro.cpp.o:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o
+.PHONY : designPatternSingleton/FabricaCarro.cpp.o
+
+designPatternSingleton/FabricaCarro.i: designPatternSingleton/FabricaCarro.cpp.i
+
+.PHONY : designPatternSingleton/FabricaCarro.i
+
+# target to preprocess a source file
+designPatternSingleton/FabricaCarro.cpp.i:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.i
+.PHONY : designPatternSingleton/FabricaCarro.cpp.i
+
+designPatternSingleton/FabricaCarro.s: designPatternSingleton/FabricaCarro.cpp.s
+
+.PHONY : designPatternSingleton/FabricaCarro.s
+
+# target to generate assembly for a file
+designPatternSingleton/FabricaCarro.cpp.s:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.s
+.PHONY : designPatternSingleton/FabricaCarro.cpp.s
+
+designPatternSingleton/Singleton.o: designPatternSingleton/Singleton.cpp.o
+
+.PHONY : designPatternSingleton/Singleton.o
+
+# target to build an object file
+designPatternSingleton/Singleton.cpp.o:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o
+.PHONY : designPatternSingleton/Singleton.cpp.o
+
+designPatternSingleton/Singleton.i: designPatternSingleton/Singleton.cpp.i
+
+.PHONY : designPatternSingleton/Singleton.i
+
+# target to preprocess a source file
+designPatternSingleton/Singleton.cpp.i:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.i
+.PHONY : designPatternSingleton/Singleton.cpp.i
+
+designPatternSingleton/Singleton.s: designPatternSingleton/Singleton.cpp.s
+
+.PHONY : designPatternSingleton/Singleton.s
+
+# target to generate assembly for a file
+designPatternSingleton/Singleton.cpp.s:
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.s
+.PHONY : designPatternSingleton/Singleton.cpp.s
 
 main.o: main.cpp.o
 
@@ -294,21 +348,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... estudo_dirigido"
-	@echo "... designPattern/Animal.o"
-	@echo "... designPattern/Animal.i"
-	@echo "... designPattern/Animal.s"
-	@echo "... designPattern/AnimalNulo.o"
-	@echo "... designPattern/AnimalNulo.i"
-	@echo "... designPattern/AnimalNulo.s"
-	@echo "... designPattern/ExecutorNullObject.o"
-	@echo "... designPattern/ExecutorNullObject.i"
-	@echo "... designPattern/ExecutorNullObject.s"
-	@echo "... designPattern/Mamifero.o"
-	@echo "... designPattern/Mamifero.i"
-	@echo "... designPattern/Mamifero.s"
-	@echo "... designPattern/Singleton.o"
-	@echo "... designPattern/Singleton.i"
-	@echo "... designPattern/Singleton.s"
+	@echo "... designPatternNullObject/Animal.o"
+	@echo "... designPatternNullObject/Animal.i"
+	@echo "... designPatternNullObject/Animal.s"
+	@echo "... designPatternNullObject/AnimalNulo.o"
+	@echo "... designPatternNullObject/AnimalNulo.i"
+	@echo "... designPatternNullObject/AnimalNulo.s"
+	@echo "... designPatternNullObject/ExecutorNullObject.o"
+	@echo "... designPatternNullObject/ExecutorNullObject.i"
+	@echo "... designPatternNullObject/ExecutorNullObject.s"
+	@echo "... designPatternNullObject/Mamifero.o"
+	@echo "... designPatternNullObject/Mamifero.i"
+	@echo "... designPatternNullObject/Mamifero.s"
+	@echo "... designPatternSingleton/ExecutorSingleton.o"
+	@echo "... designPatternSingleton/ExecutorSingleton.i"
+	@echo "... designPatternSingleton/ExecutorSingleton.s"
+	@echo "... designPatternSingleton/FabricaCarro.o"
+	@echo "... designPatternSingleton/FabricaCarro.i"
+	@echo "... designPatternSingleton/FabricaCarro.s"
+	@echo "... designPatternSingleton/Singleton.o"
+	@echo "... designPatternSingleton/Singleton.i"
+	@echo "... designPatternSingleton/Singleton.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

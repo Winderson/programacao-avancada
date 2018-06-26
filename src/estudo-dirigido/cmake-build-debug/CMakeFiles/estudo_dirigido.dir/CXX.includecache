@@ -6,57 +6,77 @@
 
 #IncludeRegexTransform: 
 
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.cpp
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Animal.cpp
 Animal.h
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Animal.h
 
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Animal.h
 string
 -
 
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/AnimalNulo.cpp
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/AnimalNulo.cpp
 AnimalNulo.h
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/AnimalNulo.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/AnimalNulo.h
 
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/AnimalNulo.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/AnimalNulo.h
 Animal.h
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Animal.h
 
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/ExecutorNullObject.cpp
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/ExecutorNullObject.cpp
 ExecutorNullObject.h
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/ExecutorNullObject.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/ExecutorNullObject.h
 
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/ExecutorNullObject.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/ExecutorNullObject.h
 iostream
 -
 vector
 -
 Animal.h
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Animal.h
 Mamifero.h
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Mamifero.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Mamifero.h
 AnimalNulo.h
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/AnimalNulo.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/AnimalNulo.h
 
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Mamifero.cpp
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Mamifero.cpp
 Mamifero.h
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Mamifero.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Mamifero.h
 
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Mamifero.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Mamifero.h
 Animal.h
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Animal.h
 
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Singleton.cpp
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/ExecutorSingleton.cpp
+ExecutorSingleton.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/ExecutorSingleton.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/ExecutorSingleton.h
+FabricaCarro.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/FabricaCarro.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/FabricaCarro.cpp
+FabricaCarro.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/FabricaCarro.h
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/FabricaCarro.h
+iostream
+-
+string
+-
+
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/Singleton.cpp
 Singleton.h
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Singleton.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/Singleton.h
 
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Singleton.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/Singleton.h
 
 /home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/main.cpp
 iostream
 -
-designPattern/ExecutorNullObject.h
-/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/ExecutorNullObject.h
+designPatternNullObject/ExecutorNullObject.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/ExecutorNullObject.h
+designPatternSingleton/ExecutorSingleton.h
+/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/ExecutorSingleton.h
 string
 -
 

@@ -81,147 +81,199 @@ CMakeFiles/estudo_dirigido.dir/main.cpp.o.provides: CMakeFiles/estudo_dirigido.d
 CMakeFiles/estudo_dirigido.dir/main.cpp.o.provides.build: CMakeFiles/estudo_dirigido.dir/main.cpp.o
 
 
-CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o: CMakeFiles/estudo_dirigido.dir/flags.make
-CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o: ../designPattern/Singleton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o -c "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Singleton.cpp"
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o: CMakeFiles/estudo_dirigido.dir/flags.make
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o: ../designPatternSingleton/Singleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o -c "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/Singleton.cpp"
 
-CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Singleton.cpp" > CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.i
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/Singleton.cpp" > CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.i
 
-CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Singleton.cpp" -o CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.s
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/Singleton.cpp" -o CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.s
 
-CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o.requires:
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o.requires:
 
-.PHONY : CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o.requires
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o.requires
 
-CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o.provides: CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o.requires
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o.provides.build
-.PHONY : CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o.provides
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o.provides: CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o.requires
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o.provides.build
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o.provides
 
-CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o.provides.build: CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o
-
-
-CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o: CMakeFiles/estudo_dirigido.dir/flags.make
-CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o: ../designPattern/Animal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o -c "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.cpp"
-
-CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.cpp" > CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.i
-
-CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.cpp" -o CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.s
-
-CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o.requires:
-
-.PHONY : CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o.requires
-
-CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o.provides: CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o.requires
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o.provides.build
-.PHONY : CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o.provides
-
-CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o.provides.build: CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o.provides.build: CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o
 
 
-CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o: CMakeFiles/estudo_dirigido.dir/flags.make
-CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o: ../designPattern/Mamifero.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o -c "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Mamifero.cpp"
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o: CMakeFiles/estudo_dirigido.dir/flags.make
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o: ../designPatternNullObject/Animal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o -c "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Animal.cpp"
 
-CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Mamifero.cpp" > CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.i
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Animal.cpp" > CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.i
 
-CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Mamifero.cpp" -o CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.s
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Animal.cpp" -o CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.s
 
-CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o.requires:
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o.requires:
 
-.PHONY : CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o.requires
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o.requires
 
-CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o.provides: CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o.requires
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o.provides.build
-.PHONY : CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o.provides
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o.provides: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o.requires
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o.provides.build
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o.provides
 
-CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o.provides.build: CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o
-
-
-CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o: CMakeFiles/estudo_dirigido.dir/flags.make
-CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o: ../designPattern/ExecutorNullObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o -c "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/ExecutorNullObject.cpp"
-
-CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/ExecutorNullObject.cpp" > CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.i
-
-CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/ExecutorNullObject.cpp" -o CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.s
-
-CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o.requires:
-
-.PHONY : CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o.requires
-
-CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o.provides: CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o.requires
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o.provides.build
-.PHONY : CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o.provides
-
-CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o.provides.build: CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o.provides.build: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o
 
 
-CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o: CMakeFiles/estudo_dirigido.dir/flags.make
-CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o: ../designPattern/AnimalNulo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o -c "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/AnimalNulo.cpp"
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o: CMakeFiles/estudo_dirigido.dir/flags.make
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o: ../designPatternNullObject/Mamifero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o -c "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Mamifero.cpp"
 
-CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/AnimalNulo.cpp" > CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.i
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Mamifero.cpp" > CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.i
 
-CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/AnimalNulo.cpp" -o CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.s
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Mamifero.cpp" -o CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.s
 
-CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o.requires:
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o.requires:
 
-.PHONY : CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o.requires
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o.requires
 
-CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o.provides: CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o.requires
-	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o.provides.build
-.PHONY : CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o.provides
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o.provides: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o.requires
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o.provides.build
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o.provides
 
-CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o.provides.build: CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o.provides.build: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o
+
+
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o: CMakeFiles/estudo_dirigido.dir/flags.make
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o: ../designPatternNullObject/ExecutorNullObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o -c "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/ExecutorNullObject.cpp"
+
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/ExecutorNullObject.cpp" > CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.i
+
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/ExecutorNullObject.cpp" -o CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.s
+
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o.requires:
+
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o.requires
+
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o.provides: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o.requires
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o.provides.build
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o.provides
+
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o.provides.build: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o
+
+
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o: CMakeFiles/estudo_dirigido.dir/flags.make
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o: ../designPatternNullObject/AnimalNulo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o -c "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/AnimalNulo.cpp"
+
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/AnimalNulo.cpp" > CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.i
+
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/AnimalNulo.cpp" -o CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.s
+
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o.requires:
+
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o.requires
+
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o.provides: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o.requires
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o.provides.build
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o.provides
+
+CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o.provides.build: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o
+
+
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o: CMakeFiles/estudo_dirigido.dir/flags.make
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o: ../designPatternSingleton/FabricaCarro.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o -c "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/FabricaCarro.cpp"
+
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/FabricaCarro.cpp" > CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.i
+
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/FabricaCarro.cpp" -o CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.s
+
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o.requires:
+
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o.requires
+
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o.provides: CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o.requires
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o.provides.build
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o.provides
+
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o.provides.build: CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o
+
+
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o: CMakeFiles/estudo_dirigido.dir/flags.make
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o: ../designPatternSingleton/ExecutorSingleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o -c "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/ExecutorSingleton.cpp"
+
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/ExecutorSingleton.cpp" > CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.i
+
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/ExecutorSingleton.cpp" -o CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.s
+
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o.requires:
+
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o.requires
+
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o.provides: CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o.requires
+	$(MAKE) -f CMakeFiles/estudo_dirigido.dir/build.make CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o.provides.build
+.PHONY : CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o.provides
+
+CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o.provides.build: CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o
 
 
 # Object files for target estudo_dirigido
 estudo_dirigido_OBJECTS = \
 "CMakeFiles/estudo_dirigido.dir/main.cpp.o" \
-"CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o" \
-"CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o" \
-"CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o" \
-"CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o" \
-"CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o"
+"CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o" \
+"CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o" \
+"CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o" \
+"CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o" \
+"CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o" \
+"CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o" \
+"CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o"
 
 # External object files for target estudo_dirigido
 estudo_dirigido_EXTERNAL_OBJECTS =
 
 estudo_dirigido: CMakeFiles/estudo_dirigido.dir/main.cpp.o
-estudo_dirigido: CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o
-estudo_dirigido: CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o
-estudo_dirigido: CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o
-estudo_dirigido: CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o
-estudo_dirigido: CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o
+estudo_dirigido: CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o
+estudo_dirigido: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o
+estudo_dirigido: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o
+estudo_dirigido: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o
+estudo_dirigido: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o
+estudo_dirigido: CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o
+estudo_dirigido: CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o
 estudo_dirigido: CMakeFiles/estudo_dirigido.dir/build.make
 estudo_dirigido: CMakeFiles/estudo_dirigido.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable estudo_dirigido"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable estudo_dirigido"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/estudo_dirigido.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -230,11 +282,13 @@ CMakeFiles/estudo_dirigido.dir/build: estudo_dirigido
 .PHONY : CMakeFiles/estudo_dirigido.dir/build
 
 CMakeFiles/estudo_dirigido.dir/requires: CMakeFiles/estudo_dirigido.dir/main.cpp.o.requires
-CMakeFiles/estudo_dirigido.dir/requires: CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o.requires
-CMakeFiles/estudo_dirigido.dir/requires: CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o.requires
-CMakeFiles/estudo_dirigido.dir/requires: CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o.requires
-CMakeFiles/estudo_dirigido.dir/requires: CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o.requires
-CMakeFiles/estudo_dirigido.dir/requires: CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o.requires
+CMakeFiles/estudo_dirigido.dir/requires: CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o.requires
+CMakeFiles/estudo_dirigido.dir/requires: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o.requires
+CMakeFiles/estudo_dirigido.dir/requires: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o.requires
+CMakeFiles/estudo_dirigido.dir/requires: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o.requires
+CMakeFiles/estudo_dirigido.dir/requires: CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o.requires
+CMakeFiles/estudo_dirigido.dir/requires: CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o.requires
+CMakeFiles/estudo_dirigido.dir/requires: CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o.requires
 
 .PHONY : CMakeFiles/estudo_dirigido.dir/requires
 

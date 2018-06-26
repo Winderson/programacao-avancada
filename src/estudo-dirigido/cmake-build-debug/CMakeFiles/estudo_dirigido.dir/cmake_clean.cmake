@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/estudo_dirigido.dir/main.cpp.o"
-  "CMakeFiles/estudo_dirigido.dir/designPattern/Singleton.cpp.o"
-  "CMakeFiles/estudo_dirigido.dir/designPattern/Animal.cpp.o"
-  "CMakeFiles/estudo_dirigido.dir/designPattern/Mamifero.cpp.o"
-  "CMakeFiles/estudo_dirigido.dir/designPattern/ExecutorNullObject.cpp.o"
-  "CMakeFiles/estudo_dirigido.dir/designPattern/AnimalNulo.cpp.o"
+  "CMakeFiles/estudo_dirigido.dir/designPatternSingleton/Singleton.cpp.o"
+  "CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Animal.cpp.o"
+  "CMakeFiles/estudo_dirigido.dir/designPatternNullObject/Mamifero.cpp.o"
+  "CMakeFiles/estudo_dirigido.dir/designPatternNullObject/ExecutorNullObject.cpp.o"
+  "CMakeFiles/estudo_dirigido.dir/designPatternNullObject/AnimalNulo.cpp.o"
+  "CMakeFiles/estudo_dirigido.dir/designPatternSingleton/FabricaCarro.cpp.o"
+  "CMakeFiles/estudo_dirigido.dir/designPatternSingleton/ExecutorSingleton.cpp.o"
   "estudo_dirigido.pdb"
   "estudo_dirigido"
 )

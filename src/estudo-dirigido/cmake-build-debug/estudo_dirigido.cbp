@@ -84,34 +84,46 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.cpp">
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Animal.cpp">
 			<Option target="estudo_dirigido"/>
 		</Unit>
-		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Animal.h">
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Animal.h">
 			<Option target="estudo_dirigido"/>
 		</Unit>
-		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/AnimalNulo.cpp">
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/AnimalNulo.cpp">
 			<Option target="estudo_dirigido"/>
 		</Unit>
-		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/AnimalNulo.h">
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/AnimalNulo.h">
 			<Option target="estudo_dirigido"/>
 		</Unit>
-		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/ExecutorNullObject.cpp">
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/ExecutorNullObject.cpp">
 			<Option target="estudo_dirigido"/>
 		</Unit>
-		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/ExecutorNullObject.h">
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/ExecutorNullObject.h">
 			<Option target="estudo_dirigido"/>
 		</Unit>
-		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Mamifero.cpp">
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Mamifero.cpp">
 			<Option target="estudo_dirigido"/>
 		</Unit>
-		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Mamifero.h">
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternNullObject/Mamifero.h">
 			<Option target="estudo_dirigido"/>
 		</Unit>
-		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Singleton.cpp">
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/ExecutorSingleton.cpp">
 			<Option target="estudo_dirigido"/>
 		</Unit>
-		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPattern/Singleton.h">
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/ExecutorSingleton.h">
+			<Option target="estudo_dirigido"/>
+		</Unit>
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/FabricaCarro.cpp">
+			<Option target="estudo_dirigido"/>
+		</Unit>
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/FabricaCarro.h">
+			<Option target="estudo_dirigido"/>
+		</Unit>
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/Singleton.cpp">
+			<Option target="estudo_dirigido"/>
+		</Unit>
+		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/designPatternSingleton/Singleton.h">
 			<Option target="estudo_dirigido"/>
 		</Unit>
 		<Unit filename="/home/winderson/Universidade/Programacao avancada (Chauã)/GitHub/programacao-avancada/src/estudo-dirigido/main.cpp">
