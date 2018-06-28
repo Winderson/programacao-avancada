@@ -14,7 +14,6 @@
 ##### Arquivos:
 - Trabalho1View.h
 - Trabalho1View.cpp
-
 ### Classe Trabalho1Controller
 ##### Atributos: 
 - view(Trabalho1View)
@@ -23,7 +22,6 @@
 - void trataOpcao(int &opcao) 
 - void executaTesteVeiculos() 
 - void executaTesteCaminhonete()
-
 ### Classe Veiculo
 ##### Atributos: 
 - placa
@@ -58,7 +56,6 @@
 - imprime()
 ##### Arquivos: 
 - Carro.h
-
 ### Classe Caminhao
 ##### Herança: 
 - classe Veiculo
@@ -124,7 +121,7 @@
 ##### Construtores
 - Conta()
 - Conta(numero, nome)
-##### Métodos 
+##### Métodos
 - extrato()
 - deposita()
 - retira()
@@ -175,7 +172,7 @@
 - _tamanho
 - *_pilha 
 
-###### Construtores
+##### Construtores
 - Pilha()
 - Pilha(tamanhoAlocado)
 
@@ -208,3 +205,88 @@
 
 ##### Arquivos
 - Ponto.h
+- Ponto.cpp
+
+## Trabalho 4(Classes amigas)
+### Classe Matriz
+##### Atributos
+- int _nLinhas
+- int _nColunas
+- int **dados;
+##### Construtor
+- Matriz(int linhas, int colunas);
+##### Destrutor
+- ~Matriz()
+##### Métodos
+- void operator +(Matriz)
+- void operator -(Matriz)
+- void operator *(Matriz)
+- void operator *(int escalar)
+##### Métodos mutantes 
+- Getters 
+- Setters
+##### Arquivos
+Matriz.h
+Matriz.cpp
+## Trabalho 5(Arquivos)
+### Classe LojaController
+##### Atributos
+- LojaView lojaView
+- JogoDAO jogoDao
+##### Construtores
+- Padrão
+##### Métodos
+- void executa()
+#### Arquivos
+- LojaController.h
+- LojaController.cpp
+### Classe JogoDAO
+##### Atributos
+- int indice
+##### Construtores
+- Padrão
+##### Métodos
+- bool insere(Jogo jogo)
+- bool insere(vector<Jogo> jogos)
+- vector<Jogo> consulta()
+- Jogo consulta(int id)
+- bool deleta(int id)
+- bool atualiza(Jogo jogo)
+- vector<string> split(string str, const char* op)
+#### Arquivos
+- JogoDAO.h
+- JogoDAO.cpp
+### Classe Jogo
+##### Atributos
+- int _id
+- string _titulo
+- string _categoria
+- string _plataforma
+- int _quantidade
+- double _preco
+##### Construtores
+- Jogo()
+#### Métodos de mutantes
+- Getters
+- Setters
+#### Arquivos
+- Jogo.h
+- Jogo.cpp
+### Classe LojaView
+##### Construtores
+- Padrão
+##### Métodos
+- int exibeMenu()
+- Jogo leituraJogo()
+- void exibeJogo(Jogo jogo)
+- void exibeJogo(vector<Jogo> jogos)
+- int leituraID(string tipo)
+- int deletaJogo()
+- Jogo atualizaJogo()
+- void exibeSaida()
+#### Arquivos
+- LojaView.h
+- LojaView.cpp
+
+
+

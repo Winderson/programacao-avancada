@@ -30,7 +30,7 @@ public:
 
     }
     Matriz operator *(int escalar){
-        
+
     }
 
     int getNLinhas() const {
